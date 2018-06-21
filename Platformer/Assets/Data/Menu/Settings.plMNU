@@ -1,0 +1,67 @@
+
+./Assets/Munro.ttf
+235 235 235 255
+32
+4
+Window Size:
+32 64
+25 25 25 255
+Volume:
+224 64
+25 25 25 255
+Sound:
+256 96
+25 25 25 255
+Music:
+256 128
+25 25 25 255
+3
+./Assets/Images/SliderBackground.png
+./Assets/Images/SliderButton.png
+./Assets/Images/SilhouetteSettings.png
+9
+Back
+32 320 32 32
+Button-Text
+Back
+25 25 25 255
+Controls
+64 256 32 32
+Button-Text
+Controls
+25 25 25 255
+Fullscreen
+96 96 32 32
+Button-Text
+Fullscreen
+25 25 25 255
+640x360
+96 128 32 32
+Button-Text
+640x360
+25 25 25 255
+1280x720
+96 160 32 32
+Button-Text
+1280x720
+25 25 25 255
+1920x1080
+96 192 32 32
+Button-Text
+1920x1080
+25 25 25 255
+SoundSlider
+356 96 256 32
+Slider
+128
+0 1
+MusicSlider
+356 128 256 32
+Slider
+16
+0 1
+Empty
+448 216 144 144
+Button
+2
+0 0 144 144

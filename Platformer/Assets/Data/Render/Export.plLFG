@@ -1,0 +1,15 @@
+1
+./Assets/Data/Spritesheet/door
+./Assets/Images/DoorClosed.png
+3
+128 32
+320 160
+64 224
+1
+./Assets/Images/
+./Assets/Data/Spritesheet/beam
+4
+480 64
+192 128
+416 288
+192 320

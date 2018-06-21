@@ -1,0 +1,103 @@
+640 2048 0 -1
+4
+571 110
+91 110
+91 1198
+571 1646
+Factory4Collision.plCOL
+FactoryMaster.plMST
+Factory4Ground.plLFG
+Factory4Event.plEVT
+Factory4Tile.plTLM
+./Assets/Sounds/Music/FactoryLevel.wav
+12
+E-Emplacement-0
+456 32
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Emplacement-1
+200 736
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Emplacement-2
+488 1024
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Emplacement-3
+360 1568
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Emplacement-4
+440 1888
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Emplacement-5
+200 1888
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Chaser-0
+96 1408
+1
+E-C-1-BA1
+1
+GC
+1
+E-Patrol-0
+456 558
+1
+E-P-3-BA1
+1
+GC
+1
+E-Patrol-1
+320 814
+1
+E-P-2-BA1
+1
+GC
+1
+E-Patrol-2
+352 1422
+1
+E-P-2-BA1
+1
+GC
+1
+E-Patrol-3
+160 1966
+1
+E-P-3-BA1
+1
+GC
+1
+E-Patrol-4
+384 1966
+1
+E-P-2-BA1
+1
+GC
+1
+FactoryInfo
+0 0 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/FactoryInfo.png
+./Assets/Images/FactoryThumbnail.png
+20

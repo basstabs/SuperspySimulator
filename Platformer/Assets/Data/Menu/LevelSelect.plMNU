@@ -1,0 +1,34 @@
+
+./Assets/Munro.ttf
+235 235 235 255
+32
+0
+2
+./Assets/Images/Icons.png
+./Assets/Images/SilhouetteSelect.png
+5
+Back
+32 320 32 32
+Button-Text
+Back
+25 25 25 255
+Start
+544 320 32 32
+Button-Text
+Start
+25 25 25 255
+LevelDown
+192 160 32 32
+Button
+0
+96 0 32 32
+LevelUp
+416 160 32 32
+Button
+0
+64 0 32 32
+Empty
+32 96 64 80
+Button
+1
+0 0 64 80

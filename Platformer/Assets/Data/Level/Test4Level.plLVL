@@ -1,0 +1,199 @@
+2048 2048 -1 -1
+2
+50 46
+448 1966
+Test4Collision.plCOL
+TestMaster.plMST
+Test4Ground.plLFG
+Test4Event.plEVT
+Test4Tile.plTLM
+./Assets/Sounds/Music/AlienLevel.wav
+26
+E-Snuggler1
+224 288
+1
+E-C-2
+1
+GC
+1
+E-Snuggler2
+1664 128
+1
+E-C-2
+1
+GC
+1
+E-Turret1
+1120 448
+1
+E-T-1-BA1
+1
+GC
+1
+E-EmplacementDown1
+1904 32
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-EmplacementLeft1
+834 408
+1
+E-Emp-1-Left-BA1
+1
+GC
+1
+E-Turret2
+800 192
+1
+E-T-1-BA1
+1
+GC
+1
+E-EmplacementRight1
+704 288
+1
+E-Emp-1-Right-BA1
+1
+GC
+1
+E-Snuggler3
+320 800
+1
+E-C-2
+1
+GC
+1
+E-Turret3
+576 1184
+1
+E-T-1-BA1
+1
+GC
+1
+E-EmplacementRight2
+160 1312
+1
+E-Emp-1-Right-BA1
+1
+GC
+1
+E-Turret4
+1120 1088
+1
+E-T-1-BA1
+1
+GC
+1
+E-EmplacementRight3
+832 1216
+1
+E-Emp-1-Right-BA1
+1
+GC
+1
+E-Turret5
+896 1088
+1
+E-T-1-BA1
+1
+GC
+1
+E-Turret6
+864 1472
+1
+E-T-1-BA1
+1
+GC
+1
+E-Turret7
+672 1728
+1
+E-T-1-BA1
+1
+GC
+1
+E-EmplacementLeft4
+1698 1880
+1
+E-Emp-1-Left-BA1
+1
+GC
+1
+E-Turret8
+1784 1952
+1
+E-T-1-BA1
+1
+GC
+1
+E-Alien1
+1688 1975
+1
+E-P-1-BA1
+1
+GC
+1
+E-Alien2
+800 55
+1
+E-P-1-BA1
+1
+GC
+1
+E-Snuggler4
+1440 1408
+1
+E-C-2
+1
+GC
+1
+E-Snuggler3
+408 1280
+1
+E-C-2
+1
+GC
+1
+E-Snuggler5
+1824 1088
+1
+E-C-2
+1
+GC
+1
+E-EmplacementDown2
+1664 800
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-EmplacementDown3
+1952 800
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Turret9
+1440 672
+1
+E-T-1-BA1
+1
+GC
+1
+E-EmplacementRight4
+1280 876
+1
+E-Emp-1-Right-BA1
+1
+GC
+1
+AlienInfo
+0 0 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/AlienInfo.png
+./Assets/Images/AlienThumbnail.png
+20

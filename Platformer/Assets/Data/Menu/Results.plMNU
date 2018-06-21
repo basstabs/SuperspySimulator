@@ -1,0 +1,30 @@
+./Assets/Sounds/Music/WinTheme.wav
+./Assets/Munro.ttf
+235 235 235 255
+32
+6
+Mission Complete!
+224 32
+25 25 25 255
+Completion Bonus:
+96 128
+50 50 50 255
+Damsels:
+96 160
+50 50 50 255
+Dossiers:
+96 192
+50 50 50 255
+Info:
+96 224
+50 50 50 255
+Total:
+96 256
+50 50 50 255
+0
+1
+Finish
+287 320 0 0
+Button-Text
+Finish
+25 25 25 255

@@ -1,0 +1,52 @@
+4096 360 -1 0
+2
+128 270
+2016 142
+Test2Collision.plCOL
+TestMaster.plMST
+Test2Ground.plLFG
+Test2Event.plEVT
+Test2Tiles.plTLM
+./Assets/Sounds/Music/AlienLevel.wav
+5
+E-Patrol-1
+736 279
+1
+E-P-1-BA1
+1
+GC
+1
+E-EmplacementDown-1
+1440 32
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-EmplacementDown-2
+1600 32
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Mover-1
+3352 224
+1
+E-M-1-BA1
+1
+GC
+1
+E-Mover-2
+3600 224
+1
+E-M-1-BA1
+1
+GC
+1
+AlienInfo
+0 0 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/AlienInfo.png
+./Assets/Images/AlienThumbnail.png
+20

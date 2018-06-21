@@ -1,0 +1,16 @@
+0 0 10 50
+5 1 1000
+./Assets/Data/Spritesheet/Player.plSPS
+./Assets/Images/Heroine.png
+./Assets/Data/Spritesheet/PlayerKO.plSPS
+./Assets/Images/HeroineKO.png
+./Assets/Sounds/Effects/Hurt.wav
+-36 -4 -8 -4
+Projectile
+-8 10 8 10 500
+1 1 0 0 6 3
+400
+./Assets/Data/Spritesheet/Bullet.plSPS
+./Assets/Images/Bullet.png
+./Assets/Sounds/Effects/Shoot.wav
+./Assets/Sounds/Effects/Jump.wav

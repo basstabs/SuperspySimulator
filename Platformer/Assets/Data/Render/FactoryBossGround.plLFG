@@ -1,0 +1,19 @@
+4
+./Assets/Data/Spritesheet/Empty.plSPS
+./Assets/Images/FactoryDoorOpen.png
+1
+1440 256
+./Assets/Data/Spritesheet/Empty.plSPS
+./Assets/Images/FactoryDoorClosed.png
+2
+32 256
+1440 256
+./Assets/Data/Spritesheet/SpawnTunnel.plSPS
+./Assets/Images/SpawnTunnel.png
+1
+576 246
+./Assets/Data/Spritesheet/SpawnTunnel.plSPS
+./Assets/Images/SpawnTunnelDown.png
+1
+1072 0
+0

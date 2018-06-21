@@ -1,0 +1,23 @@
+640 540 0 -1
+1
+310 398
+MummyBossCollision.plCOL
+MummyBossMaster.plMST
+MummyBossGround.plLFG
+MummyBossEvent.plEVT
+MummyBossTile.plTLM
+./Assets/Sounds/Music/MummyBoss.wav
+1
+E-Boss-0
+448 398
+1
+E-F-1-BA1
+1
+GC
+1
+MummyInfo
+0 0 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/MummyInfo.png
+./Assets/Images/MummyThumbnail.png
+20

@@ -1,0 +1,26 @@
+3
+N-Door-1
+trigger
+288 256 64 64
+door
+./Assets/Data/Level/Mummy2Level.plLVL
+4
+input
+1
+0
+N-Info-1
+item
+MummyInfo
+480 96 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/MummyInfo.png
+./Assets/Images/MummyThumbnail.png
+1
+N-Info-2
+item
+AlienInfo
+160 96 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/AlienInfo.png
+./Assets/Images/AlienThumbnail.png
+1

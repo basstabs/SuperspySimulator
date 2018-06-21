@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{60e9fdc6-db90-491f-92fc-3e63a25c07b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{8bb86282-3cbc-4975-81ac-5008e7112775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{06911628-f326-49d3-b9aa-473c638eb9fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Data">
+      <UniqueIdentifier>{6605f431-49f7-42e9-87a6-e764590115d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Data\Collision">
+      <UniqueIdentifier>{2e1d93ac-5f8a-4623-af30-0ad36d68aa78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Data\Level">
+      <UniqueIdentifier>{b8a35182-34aa-46b1-83cb-cec2effafb2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Data\Spritesheet">
+      <UniqueIdentifier>{9dfccbf5-2e80-4754-a1c9-36186506a5d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Saves">
+      <UniqueIdentifier>{df57c692-8c83-40f2-b49e-d0367b84fb44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Data\Master">
+      <UniqueIdentifier>{36cb4b88-e08b-4d74-b3e1-d669ca395ca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Data\Event">
+      <UniqueIdentifier>{72411a6e-b542-4100-92c0-d2caa93002d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Data\Render">
+      <UniqueIdentifier>{6959c56d-062f-46f4-99f6-1287741780e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AABB.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingPlatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Platformer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spawner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Attack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptedAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spritesheet.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Customizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AABB.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingPlatform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Attack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptedAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Platformer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spawner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spritesheet.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Customizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\Data\Collision\TestCollision.plCOL">
+      <Filter>Assets\Data\Collision</Filter>
+    </Text>
+    <Text Include="Assets\Data\Spritesheet\Player.plSPS">
+      <Filter>Assets\Data\Spritesheet</Filter>
+    </Text>
+    <Text Include="Saves\Preferences.ini">
+      <Filter>Saves</Filter>
+    </Text>
+    <Text Include="Saves\UISettings.plUI">
+      <Filter>Saves</Filter>
+    </Text>
+    <Text Include="Assets\Data\Master\Vent.plETY">
+      <Filter>Assets\Data\Master</Filter>
+    </Text>
+    <Text Include="Assets\Data\Spritesheet\Empty.plSPS">
+      <Filter>Assets\Data\Spritesheet</Filter>
+    </Text>
+    <Text Include="Assets\Data\Spritesheet\EmplacementDown.plSPS">
+      <Filter>Assets\Data\Spritesheet</Filter>
+    </Text>
+    <Text Include="Assets\Data\Spritesheet\EmplacementRight.plSPS">
+      <Filter>Assets\Data\Spritesheet</Filter>
+    </Text>
+    <Text Include="Assets\Data\Spritesheet\Beam.plSPS">
+      <Filter>Assets\Data\Spritesheet</Filter>
+    </Text>
+    <Text Include="Assets\Data\Spritesheet\Fan.plSPS">
+      <Filter>Assets\Data\Spritesheet</Filter>
+    </Text>
+    <Text Include="Assets\Data\Render\TestGround.plLFG">
+      <Filter>Assets\Data\Render</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Data\Level\TestLevel.plLVL">
+      <Filter>Assets\Data\Level</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Bullet.plSPS">
+      <Filter>Assets\Data\Spritesheet</Filter>
+    </None>
+    <None Include="Assets\Data\Master\Player.plETY">
+      <Filter>Assets\Data\Master</Filter>
+    </None>
+    <None Include="Assets\Data\Master\TestMaster.plMST">
+      <Filter>Assets\Data\Master</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Fireball.plSPS">
+      <Filter>Assets\Data\Spritesheet</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Turret.plSPS">
+      <Filter>Assets\Data\Spritesheet</Filter>
+    </None>
+    <None Include="Assets\Data\Event\TestEvent.plEVT">
+      <Filter>Assets\Data\Event</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\PlayerKO.plSPS">
+      <Filter>Assets\Data\Spritesheet</Filter>
+    </None>
+    <None Include="Assets\Data\Render\TestTiles.plTLM">
+      <Filter>Assets\Data\Render</Filter>
+    </None>
+  </ItemGroup>
+</Project>

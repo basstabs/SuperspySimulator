@@ -1,0 +1,184 @@
+1
+E-F-1-BA1
+0 0 10 50
+12 -1 3000
+./Assets/Data/Spritesheet/Pharaoh.plSPS
+./Assets/Images/Pharaoh.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-36 -4 -8 -4
+4
+Idle
+0 1
+0
+Shoot
+1 0
+0
+GoTo
+2 1
+0
+Turn
+0 1
+0
+5
+health == 12
+2 1
+Idle 0
+-1 -1
+health <= 6
+4 3
+scripted 12 Shoot 2 0 1 , GoTo 5 320 320 256 2 2 , Shoot 2 2 3 , Shoot 2 3 3 , GoTo 5 320 176 398 2 0 , Turn 0 , Shoot 2 0 1 , GoTo 5 320 320 256 2 2 , Shoot 2 2 3 , Shoot 2 3 3 , GoTo 5 320 448 398 2 0 , Turn 0 ,
+-1 -1
+scripted 4 Shoot 2 0 1 , GoTo 5 256 448 230 2 2 , Shoot 2 1 3 , GoTo 5 256 448 398 2 0 , 
+-1 -1
+250
+./Assets/Sounds/Effects/Confirm.wav
+4
+Multishot
+0 8 14 8 100
+3
+1 1 0 5 10 10
+250 0
+./Assets/Data/Spritesheet/Magicball.plSPS
+./Assets/Images/Magicball.png
+1 1 0 5 10 10
+200 50
+./Assets/Data/Spritesheet/Magicball.plSPS
+./Assets/Images/Magicball.png
+1 1 0 5 10 10
+200 -50
+./Assets/Data/Spritesheet/Magicball.plSPS
+./Assets/Images/Magicball.png
+./Assets/Sounds/Effects/Fireball.wav
+Multishot
+0 8 14 8 250
+5
+1 1 0 5 10 10
+350 0
+./Assets/Data/Spritesheet/Magicball.plSPS
+./Assets/Images/Magicball.png
+1 1 0 5 10 10
+0 -350
+./Assets/Data/Spritesheet/Magicball.plSPS
+./Assets/Images/Magicball.png
+1 1 0 5 10 10
+225 -125
+./Assets/Data/Spritesheet/Magicball.plSPS
+./Assets/Images/Magicball.png
+1 1 0 5 10 10
+125 -225
+./Assets/Data/Spritesheet/Magicball.plSPS
+./Assets/Images/Magicball.png
+1 1 0 5 10 10
+175 -175
+./Assets/Data/Spritesheet/Magicball.plSPS
+./Assets/Images/Magicball.png
+./Assets/Sounds/Effects/Fireball.wav
+Multishot
+0 8 14 8 250
+8
+1 1 0 5 10 10
+400 0
+./Assets/Data/Spritesheet/Magicball.plSPS
+./Assets/Images/Magicball.png
+1 1 0 5 10 10
+-400 0
+./Assets/Data/Spritesheet/Magicball.plSPS
+./Assets/Images/Magicball.png
+1 1 0 5 10 10
+0 400
+./Assets/Data/Spritesheet/Magicball.plSPS
+./Assets/Images/Magicball.png
+1 1 0 5 10 10
+0 -400
+./Assets/Data/Spritesheet/Magicball.plSPS
+./Assets/Images/Magicball.png
+1 -1 0 0 18 14
+200 200
+./Assets/Data/Spritesheet/Bandage.plSPS
+./Assets/Images/Bandage.png
+1 -1 0 0 18 14
+200 -200
+./Assets/Data/Spritesheet/Bandage.plSPS
+./Assets/Images/Bandage.png
+1 -1 0 0 18 14
+-200 200
+./Assets/Data/Spritesheet/Bandage.plSPS
+./Assets/Images/Bandage.png
+1 -1 0 0 18 14
+-200 -200
+./Assets/Data/Spritesheet/Bandage.plSPS
+./Assets/Images/Bandage.png
+./Assets/Sounds/Effects/Fireball.wav
+Multishot
+0 8 14 8 250
+16
+1 1 0 5 10 10
+200 200
+./Assets/Data/Spritesheet/Magicball.plSPS
+./Assets/Images/Magicball.png
+1 1 0 5 10 10
+-200 200
+./Assets/Data/Spritesheet/Magicball.plSPS
+./Assets/Images/Magicball.png
+1 1 0 5 10 10
+-200 -200
+./Assets/Data/Spritesheet/Magicball.plSPS
+./Assets/Images/Magicball.png
+1 1 0 5 10 10
+200 -200
+./Assets/Data/Spritesheet/Magicball.plSPS
+./Assets/Images/Magicball.png
+1 -1 0 0 18 14
+400 0
+./Assets/Data/Spritesheet/Bandage.plSPS
+./Assets/Images/Bandage.png
+1 -1 0 0 18 14
+-400 0
+./Assets/Data/Spritesheet/Bandage.plSPS
+./Assets/Images/Bandage.png
+1 -1 0 0 18 14
+0 400
+./Assets/Data/Spritesheet/Bandage.plSPS
+./Assets/Images/Bandage.png
+1 -1 0 0 18 14
+0 -400
+./Assets/Data/Spritesheet/Bandage.plSPS
+./Assets/Images/Bandage.png
+1 -1 0 0 18 14
+300 -100
+./Assets/Data/Spritesheet/Bandage.plSPS
+./Assets/Images/Bandage.png
+1 -1 0 0 18 14
+100 -300
+./Assets/Data/Spritesheet/Bandage.plSPS
+./Assets/Images/Bandage.png
+1 -1 0 0 18 14
+-100 -300
+./Assets/Data/Spritesheet/Bandage.plSPS
+./Assets/Images/Bandage.png
+1 -1 0 0 18 14
+-300 -100
+./Assets/Data/Spritesheet/Bandage.plSPS
+./Assets/Images/Bandage.png
+1 -1 0 0 18 14
+300 100
+./Assets/Data/Spritesheet/Bandage.plSPS
+./Assets/Images/Bandage.png
+1 -1 0 0 18 14
+100 300
+./Assets/Data/Spritesheet/Bandage.plSPS
+./Assets/Images/Bandage.png
+1 -1 0 0 18 14
+-100 300
+./Assets/Data/Spritesheet/Bandage.plSPS
+./Assets/Images/Bandage.png
+1 -1 0 0 18 14
+-300 100
+./Assets/Data/Spritesheet/Bandage.plSPS
+./Assets/Images/Bandage.png
+./Assets/Sounds/Effects/Fireball.wav
+0 0 10 50
+0 0
+150

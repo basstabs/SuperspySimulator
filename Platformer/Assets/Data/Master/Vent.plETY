@@ -1,0 +1,8 @@
+0 0 32 64
+1 1 500
+./Assets/Data/Spritesheet/Fan.plSPS
+./Assets/Images/Fan.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/Break.wav
+-2 0 -2 0

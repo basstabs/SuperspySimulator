@@ -1,0 +1,34 @@
+
+./Assets/Munro.ttf
+235 235 235 255
+32
+2
+Name:
+224 224
+25 25 25 255
+Status:
+224 256
+25 25 25 255
+1
+./Assets/Images/Icons.png
+4
+Back
+32 320 32 32
+Button-Text
+Back
+25 25 25 255
+Next
+416 160 32 32
+Button
+0
+64 0 32 32
+Previous
+192 160 32 32
+Button
+0
+96 0 32 32
+New
+544 320 32 32
+Button-Text
+New
+25 25 25 255

@@ -1,0 +1,205 @@
+11
+E-P-1-BA1
+0 0 15 41
+3 1 500
+./Assets/Data/Spritesheet/Alien.plSPS
+./Assets/Images/Alien.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-33 -7 0 -7
+-128 128 75
+-128 -64 256 96
+1 0
+Projectile
+-8 12 14 12 2000
+1 1 0 0 8 8
+150
+./Assets/Data/Spritesheet/Fireball.plSPS
+./Assets/Images/Fireball.png
+./Assets/Sounds/Effects/Fireball.wav
+30
+E-T-1-BA1
+0 0 14 14
+2 1 500
+./Assets/Data/Spritesheet/Turret.plSPS
+./Assets/Images/Turret.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-1 0 -1 0
+-160 -20 0 300
+Projectile
+5 5 5 5 2000
+1 1 0 0 8 8
+150
+./Assets/Data/Spritesheet/Fireball.plSPS
+./Assets/Images/Fireball.png
+./Assets/Sounds/Effects/Fireball.wav
+15
+E-Emp-1-Down-BA1
+0 0 14 30
+2 1 500
+./Assets/Data/Spritesheet/EmplacementDown.plSPS
+./Assets/Images/FixedGunDown.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-1 0 -1 0
+0 1
+Projectile
+4 24 4 24 1500
+1 1 0 0 8 8
+200
+./Assets/Data/Spritesheet/Fireball.plSPS
+./Assets/Images/Fireball.png
+./Assets/Sounds/Effects/Fireball.wav
+15
+E-Emp-1-Right-BA1
+0 0 30 14
+2 1 500
+./Assets/Data/Spritesheet/EmplacementRight.plSPS
+./Assets/Images/FixedGunRight.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+0 -1 0 -1
+1 0
+Projectile
+24 4 24 4 1500
+1 1 0 0 8 8
+200
+./Assets/Data/Spritesheet/Fireball.plSPS
+./Assets/Images/Fireball.png
+./Assets/Sounds/Effects/Fireball.wav
+15
+E-Emp-1-Left-BA1
+0 0 30 14
+2 1 500
+./Assets/Data/Spritesheet/EmplacementRight.plSPS
+./Assets/Images/FixedGunLeft.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+0 -1 -2 -1
+-1 0
+Projectile
+24 4 24 4 1500
+1 1 0 0 8 8
+200
+./Assets/Data/Spritesheet/Fireball.plSPS
+./Assets/Images/Fireball.png
+./Assets/Sounds/Effects/Fireball.wav
+15
+E-Emp-2-Right-BA1
+0 0 30 14
+2 1 500
+./Assets/Data/Spritesheet/EmplacementRight.plSPS
+./Assets/Images/FixedGunRight.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+0 -1 0 -1
+1 0
+Projectile
+24 4 24 4 3000
+1 1 0 0 8 8
+200
+./Assets/Data/Spritesheet/Fireball.plSPS
+./Assets/Images/Fireball.png
+./Assets/Sounds/Effects/Fireball.wav
+15
+E-M-1-BA1
+0 0 14 14
+1 1 500
+./Assets/Data/Spritesheet/Mover.plSPS
+./Assets/Images/AlienMover.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-1 -1 -1 -1
+Constant
+5
+125
+0
+0
+0
+-192
+10
+E-M-2-BA1
+0 0 14 14
+1 1 500
+./Assets/Data/Spritesheet/Mover.plSPS
+./Assets/Images/AlienMover.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-1 -1 -1 -1
+Circle
+6
+0
+0
+0
+0.5
+32
+0
+10
+E-M-3-BA1
+0 0 14 14
+1 1 500
+./Assets/Data/Spritesheet/Mover.plSPS
+./Assets/Images/AlienMover.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-1 -1 -1 -1
+Sine
+6
+128
+0
+0
+960
+4
+48
+10
+E-C-1
+0 0 16 16
+3 1 750
+./Assets/Data/Spritesheet/Snuggler.plSPS
+./Assets/Images/Snuggler.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-16 -24 -32 -24
+2
+0 0
+128 0
+0 0 80 16
+-32 -32 320 64
+-8 100 2000
+Melee
+-1 750 2
+24 16
+0 0 0 0
+
+50
+E-C-2
+0 0 16 16
+3 1 750
+./Assets/Data/Spritesheet/Snuggler.plSPS
+./Assets/Images/Snuggler.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-16 -24 -32 -24
+1
+0 0
+0 0 80 16
+-192 -192 384 384
+-8 100 2000
+Melee
+-1 750 2
+24 16
+0 0 0 0
+
+50

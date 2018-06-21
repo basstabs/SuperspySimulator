@@ -1,0 +1,43 @@
+./Assets/Sounds/Music/MainTheme.wav
+./Assets/Munro.ttf
+235 235 235 255
+32
+0
+1
+./Assets/Images/SilhouetteMain.png
+7
+LoadButton
+16 320 32 32
+Button-Text
+Load
+25 25 25 255
+StartButton
+64 64 0 0
+Button-Text
+Start
+25 25 25 255
+CustomizeButton
+64 96 0 0
+Button-Text
+Customize
+25 25 25 255
+BestiaryButton
+64 128 0 0
+Button-Text
+Bestiary
+25 25 25 255
+OptionsButton
+64 160 0 0
+Button-Text
+Options
+25 25 25 255
+QuitButton
+64 192 0 0
+Button-Text
+Quit
+25 25 25 255
+Empty
+448 168 192 192
+Button
+0
+0 0 192 192

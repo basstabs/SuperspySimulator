@@ -1,0 +1,35 @@
+4
+N-Dossier-3
+item
+Dossier
+2208 54 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/Dossier.png
+./Assets/Images/DossierThumbnail.png
+1
+N-Damsel-4
+item
+Damsel
+3616 74 54 54
+./Assets/Data/Spritesheet/Damsel.plSPS
+./Assets/Images/Damsels/Damsel4.png
+./Assets/Images/DamselThumbnail.png
+1
+N-Door-3
+trigger
+64 256 64 64
+door
+./Assets/Data/Level/Factory3Level.plLVL
+2
+input
+1
+0
+N-Door-4
+trigger
+3968 96 64 64
+door
+./Assets/Data/Level/FactoryLevel.plLVL
+4
+input
+1
+0

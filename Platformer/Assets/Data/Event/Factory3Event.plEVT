@@ -1,0 +1,51 @@
+6
+N-Strawberry-1
+item
+Health
+2912 224 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/Strawberry.png
+
+1
+N-Damsel-2
+item
+Damsel
+2720 74 54 54
+./Assets/Data/Spritesheet/Damsel.plSPS
+./Assets/Images/Damsels/Damsel2.png
+./Assets/Images/DamselThumbnail.png
+1
+N-Damsel-3
+item
+Damsel
+160 138 54 54
+./Assets/Data/Spritesheet/Damsel.plSPS
+./Assets/Images/Damsels/Damsel3.png
+./Assets/Images/DamselThumbnail.png
+1
+N-Dossier-2
+item
+Dossier
+406 192 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/Dossier.png
+./Assets/Images/DossierThumbnail.png
+1
+N-Door-2
+trigger
+3968 256 64 64
+door
+./Assets/Data/Level/FactoryLevel.plLVL
+3
+input
+1
+0
+N-Door-3
+trigger
+64 128 64 64
+door
+./Assets/Data/Level/Factory5Level.plLVL
+0
+input
+1
+0

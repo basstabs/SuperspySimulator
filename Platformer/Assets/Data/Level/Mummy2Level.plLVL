@@ -1,0 +1,160 @@
+2048 4096 -1 -1
+5
+86 4014
+758 3406
+1558 3982
+790 2062
+1462 974
+Mummy2Collision.plCOL
+MummyMaster.plMST
+Mummy2Ground.plLFG
+Mummy2Event.plEVT
+Mummy2Tile.plTLM
+./Assets/Sounds/Music/MummyLevel.wav
+20
+E-MummyThrower-1
+296 3758
+1
+E-Emp-1-Right-BA1
+1
+GC
+1
+E-MummyThrower-2
+512 3630
+1
+E-Emp-1-Left-BA1
+1
+GC
+1
+E-MummyThrower-3
+576 3406
+1
+E-Emp-1-Left-BA1
+1
+GC
+1
+E-Mover-1
+384 3536
+1
+E-M-1-BA2
+1
+GC
+1
+E-Mover-2
+1664 3504
+1
+E-M-1-BA2
+1
+GC
+1
+E-Mover-3
+1184 3856
+1
+E-M-1-BA2
+1
+GC
+1
+E-MummyThrower-4
+712 3630
+1
+E-Emp-1-Right-BA1
+1
+GC
+1
+E-MummyThrower-5
+800 2862
+1
+E-Emp-1-Right-BA1
+1
+GC
+1
+E-MummyThrower-6
+1312 2542
+1
+E-Emp-1-Left-BA1
+1
+GC
+1
+E-MummyWalker-1
+1360 3406
+1
+E-M-3-BA1
+1
+GC
+1
+E-MummyWalker-2
+480 2606
+1
+E-M-3-BA1
+1
+GC
+1
+E-MummyWalker-3
+416 2286
+1
+E-M-3-BA1
+1
+GC
+1
+E-Turret-1
+352 2438
+1
+E-T-2-BA1
+1
+GC
+1
+E-MummyThrower-7
+232 2094
+1
+E-Emp-1-Right-BA1
+1
+GC
+1
+E-Turret-2
+352 2118
+1
+E-T-1
+1
+GC
+1
+E-Mover-4
+1424 2112
+1
+E-M-2-BA2
+1
+GC
+1
+E-Mover-5
+1680 2208
+1
+E-M-2-BA2
+1
+GC
+1
+E-Turret-3
+1504 2182
+1
+E-T-1
+1
+GC
+1
+E-MummyThrower-8
+1184 1358
+1
+E-Emp-1-Left-BA1
+1
+GC
+1
+E-MummyThrower-9
+904 1166
+1
+E-Emp-1-Right-BA1
+1
+GC
+1
+MummyInfo
+0 0 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/MummyInfo.png
+./Assets/Images/MummyThumbnail.png
+20

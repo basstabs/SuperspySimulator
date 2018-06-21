@@ -1,0 +1,144 @@
+15
+N-Strawberry-0
+item
+Health
+1398 202 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/Strawberry.png
+
+1
+N-Damsel-0
+item
+Damsel
+1408 330 54 54
+./Assets/Data/Spritesheet/Damsel.plSPS
+./Assets/Images/Damsels/Damsel0.png
+./Assets/Images/DamselThumbnail.png
+1
+N-Dossier-0
+item
+Dossier
+544 912 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/Dossier.png
+./Assets/Images/DossierThumbnail.png
+1
+N-Dossier-1
+item
+Dossier
+736 64 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/Dossier.png
+./Assets/Images/DossierThumbnail.png
+1
+N-Key-1
+item
+GreenKey
+534 120 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/GreenKey.png
+./Assets/Images/GreenKeyThumbnail.png
+1
+N-Elevator-0
+trigger
+832 608 160 64
+platform
+0
+input
+2
+0 7
+N-Elevator-0
+trigger
+800 320 160 64
+platform
+0
+input
+2
+0 7
+N-Elevator-1
+trigger
+544 608 160 64
+platform
+1
+input
+2
+0 7
+N-Elevator-1
+trigger
+576 320 160 64
+platform
+1
+input
+2
+0 7
+N-Door-0
+trigger
+416 608 64 64
+door
+./Assets/Data/Level/Factory2Level.plLVL
+0
+input
+1
+0
+N-Lock-0
+trigger
+32 352 128 96
+trigger
+64 384 64 64
+door
+./Assets/Data/Level/Factory3Level.plLVL
+0
+input
+1
+0
+0 3 0
+item
+BlueKey 1
+N-Lock-1
+trigger
+1056 576 128 96
+trigger
+1088 608 64 64
+door
+./Assets/Data/Level/Factory4Level.plLVL
+0
+input
+1
+0
+0 2 0
+item
+RedKey 1
+N-Lock-2
+trigger
+1344 64 128 96
+trigger
+1376 96 64 64
+door
+./Assets/Data/Level/FactoryBossLevel.plLVL
+0
+input
+1
+0
+0 4 0
+item
+GreenKey 1
+N-Lock-3
+trigger
+1152 288 96 96
+trigger
+1152 288 96 96
+platform
+2
+single
+1 -1 -1
+item
+BlueKey 1
+N-Door-5
+trigger
+64 96 64 64
+door
+./Assets/Data/Level/Factory5Level.plLVL
+2
+input
+1
+0

@@ -1,0 +1,7 @@
+Projectile
+-10 9 10 9 250
+1 1 0 0 6 3
+400
+./Assets/Data/Spritesheet/Bullet.plSPS
+./Assets/Images/Bullet.png
+./Assets/Sounds/Effects/Plink.wav

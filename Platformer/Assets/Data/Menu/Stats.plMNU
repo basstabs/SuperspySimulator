@@ -1,0 +1,83 @@
+./Assets/Sounds/Music/WinTheme.wav
+./Assets/Munro.ttf
+235 235 235 255
+32
+3
+Health Points:
+96 64
+25 25 25 255
+Toughness:
+96 128
+25 25 25 255
+Escape Training:
+96 192
+25 25 25 255
+7
+./Assets/Images/Icons.png
+./Assets/Images/PistolIcon.png
+./Assets/Images/HandcannonIcon.png
+./Assets/Images/PhaserIcon.png
+./Assets/Images/UziIcon.png
+./Assets/Images/MagnumIcon.png
+./Assets/Images/WeaponIconSelected.png
+12
+Pistol
+352 64 32 32
+Button
+1
+0 0 32 32
+Handcannon
+352 128 32 32
+Button
+2
+0 0 32 32
+Phaser
+352 192 32 32
+Button
+3
+0 0 32 32
+Uzi
+352 256 32 32
+Button
+4
+0 0 32 32
+Magnum
+352 320 32 32
+Button
+5
+0 0 32 32
+HealthDown
+96 96 32 32
+Button
+0
+96 0 32 32
+HealthUp
+224 96 32 32
+Button
+0
+64 0 32 32
+InvulnDown
+96 160 32 32
+Button
+0
+96 0 32 32
+InvulnUp
+224 160 32 32
+Button
+0
+64 0 32 32
+EscapeDown
+96 224 32 32
+Button
+0
+96 0 32 32
+EscapeUp
+224 224 32 32
+Button
+0
+64 0 32 32
+Back
+32 320 32 32
+Button-Text
+Back
+25 25 25 255

@@ -1,0 +1,152 @@
+2048 2048 -1 -1
+4
+48 1966
+1744 110
+1216 782
+256 782
+TestCollision.plCOL
+TestMaster.plMST
+TestGround.plLFG
+TestEvent.plEVT
+TestTiles.plTLM
+./Assets/Sounds/Music/AlienLevel.wav
+19
+E-Turret-1
+1024 1856
+1
+E-T-1-BA1
+1
+GC
+1
+E-Turret-2
+1408 1856
+1
+E-T-1-BA1
+1
+GC
+1
+E-Turret-3
+1728 1856
+1
+E-T-1-BA1
+1
+GC
+1
+E-Turret-4
+1552 256
+1
+E-T-1-BA1
+1
+GC
+1
+E-EmplacementDown-1
+1352 704
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-EmplacementRight-1
+1248 880
+1
+E-Emp-1-Right-BA1
+1
+GC
+1
+E-EmplacementRight-2
+1248 1172
+1
+E-Emp-1-Right-BA1
+1
+GC
+1
+E-EmplacementRight-3
+1248 1556
+1
+E-Emp-1-Right-BA1
+1
+GC
+1
+E-EmplacementDown-2
+1000 704
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-EmplacementRight-4
+288 1080
+1
+E-Emp-2-Right-BA1
+1
+GC
+1
+E-EmplacementDown-3
+576 704
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Mover-1
+968 320
+1
+E-M-1-BA1
+1
+GC
+1
+E-Mover-2
+304 224
+1
+E-M-1-BA1
+1
+GC
+1
+E-Mover-3
+1728 1952
+1
+E-M-2-BA1
+1
+GC
+1
+E-Mover-4
+224 576
+1
+E-M-3-BA1
+1
+GC
+1
+E-Mover-5
+640 576
+1
+E-M-3-BA1
+1
+GC
+1
+E-Patrol-1
+640 1751
+1
+E-P-1-BA1
+1
+GC
+1
+E-Patrol-2
+960 1751
+1
+E-P-1-BA1
+1
+GC
+1
+E-Snuggler-1
+512 1344
+1
+E-C-1
+1
+GC
+1
+AlienInfo
+0 0 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/AlienInfo.png
+./Assets/Images/AlienThumbnail.png
+20

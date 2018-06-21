@@ -1,0 +1,7 @@
+Projectile
+-8 6 16 6 1500
+3 1 0 0 8 8
+300
+./Assets/Data/Spritesheet/Fireball.plSPS
+./Assets/Images/Cannonball.png
+./Assets/Sounds/Effects/Cannon.wav

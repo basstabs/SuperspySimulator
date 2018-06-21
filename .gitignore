@@ -1,0 +1,8 @@
+Release/
+Debug/
+Platformer/Debug/
+Release.zip
+.vs/
+Platformer/Platformer.vcxproj
+Platformer.vcxproj
+Platformer/Platformer.aps

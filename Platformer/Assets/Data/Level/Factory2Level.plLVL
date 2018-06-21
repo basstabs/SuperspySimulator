@@ -1,0 +1,66 @@
+2048 640 -1 -1
+2
+91 558
+1760 206
+Factory2Collision.plCOL
+FactoryMaster.plMST
+Factory2Ground.plLFG
+Factory2Event.plEVT
+Factory2Tile.plTLM
+./Assets/Sounds/Music/FactoryLevel.wav
+7
+E-Emplacement-0
+556 320
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Emplacement-1
+1320 384
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Emplacement-2
+1512 96
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Emplacement-3
+1160 32
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Chaser-1
+672 64
+1
+E-C-1-BA1
+1
+GC
+1
+E-Patrol-1
+896 352
+1
+E-P-1-BA1
+1
+GC
+1
+E-Patrol-2
+1600 558
+1
+E-P-2-BA1
+1
+GC
+1
+FactoryInfo
+0 0 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/FactoryInfo.png
+./Assets/Images/FactoryThumbnail.png
+20

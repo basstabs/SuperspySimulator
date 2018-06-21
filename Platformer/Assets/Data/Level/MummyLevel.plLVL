@@ -1,0 +1,65 @@
+1568 1024 -1 -1
+1
+80 942
+MummyCollision.plCOL
+MummyMaster.plMST
+MummyGround.plLFG
+MummyEvent.plEVT
+MummyTile.plTLM
+./Assets/Sounds/Music/MummyLevel.wav
+7
+E-Turret-1
+608 742
+1
+E-T-1
+1
+GC
+1
+E-Turret-2
+256 742
+1
+E-T-2-BA1
+1
+GC
+1
+E-Mover-1
+96 464
+1
+E-M-1-BA2
+1
+GC
+1
+E-Mover-2
+96 368
+1
+E-M-1-BA2
+1
+GC
+1
+E-Mover-3
+96 560
+1
+E-M-1-BA2
+1
+GC
+1
+E-Mover-4
+164 96
+1
+E-M-2-BA2
+1
+GC
+1
+E-MummyThrower-1
+352 526
+1
+E-Emp-1-Right-BA1
+1
+GC
+1
+MummyInfo
+0 0 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/MummyInfo.png
+./Assets/Images/MummyThumbnail.png
+20

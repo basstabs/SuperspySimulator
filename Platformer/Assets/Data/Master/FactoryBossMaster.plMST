@@ -1,0 +1,132 @@
+4
+E-F-1-BA1
+0 0 20 58
+6 -1 4000
+./Assets/Data/Spritesheet/MarchionessHover.plSPS
+./Assets/Images/MarchionessHover.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-43 -4 -1 -4
+5
+Idle
+0 1
+0
+Shoot
+1 0
+0
+GoTo
+0 1
+0
+Turn
+0 1
+0
+Hurt
+2 0
+0
+11
+hurt != 0
+6 1
+health == 4
+2 4
+health == 2
+3 5
+Hurt 0
+-1 -1
+scripted 6 Hurt 0 , GoTo 5 200 480 44 0 0 , Shoot 2 1 3 , Turn 0 , GoTo 5 200 928 44 0 0 , Turn 0 ,
+-1 -1
+scripted 6 Hurt 0 , Shoot 2 2 3 , Turn 0 , GoTo 5 200 1312 96 0 0 , Turn 0 , Shoot 2 3 3 ,
+-1 -1
+health >= 5
+8 7
+scripted 4 Shoot 2 0 1 , GoTo 5 200 480 192 0 0 , Shoot 2 0 1 , GoTo 5 200 480 96 0 0 ,
+-1 -1
+health >= 3
+10 9
+scripted 4 Shoot 2 0 1 , GoTo 5 200 928 144 0 0 , Shoot 2 0 1 , GoTo 5 200 928 44 0 0 , 
+-1 -1
+scripted 19 Shoot 2 0 1 , GoTo 5 200 1184 230 0 0 , Shoot 2 0 1 , Turn 0 , GoTo 5 200 1408 230 0 0 , Turn 0 , Shoot 2 0 1 , GoTo 5 200 1312 96 0 0 , Shoot 2 0 1 , Shoot 2 4 3 , Shoot 2 0 1 , GoTo 5 200 1184 230 0 0 , Shoot 2 0 1 , Turn 0 , GoTo 5 200 1408 230 0 0 , Turn 0 , Shoot 2 0 1 , GoTo 5 200 1312 96 0 0 , Shoot 2 0 1 ,
+-1 -1
+250
+./Assets/Sounds/Effects/Confirm.wav
+5
+Projectile
+-8 10 8 10 500
+1 1 0 0 6 3
+400
+./Assets/Data/Spritesheet/Bullet.plSPS
+./Assets/Images/Bullet.png
+./Assets/Sounds/Effects/Shoot.wav
+Spawn
+76 212 76 212 2000
+E-C-1-BA1
+./Assets/Sounds/Effects/RobotSpawn.wav
+Spawn
+160 -10 160 -10 2000
+E-C-1-BA1
+./Assets/Sounds/Effects/RobotSpawn.wav
+Spawn
+128 174 128 174 2000
+E-P-2-BA1
+./Assets/Sounds/Effects/RobotSpawn.wav
+Spawn
+128 174 128 174 2000
+E-P-1-BA1
+./Assets/Sounds/Effects/RobotSpawn.wav
+0 0 20 8
+0 50
+200
+E-P-1-BA1
+0 0 10 50
+4 1 1000
+./Assets/Data/Spritesheet/Soldier.plSPS
+./Assets/Images/SoldierShock.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-36 -4 -8 -4
+-288 0 96
+-288 -64 288 96
+1 0
+Melee
+1 100 0
+16 6
+-8 16 8 16
+
+50
+E-P-2-BA1
+0 0 10 50
+4 1 1000
+./Assets/Data/Spritesheet/Soldier.plSPS
+./Assets/Images/SoldierGoo.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-36 -4 -8 -4
+-288 0 64
+-288 -64 288 96
+1 0
+Projectile
+-8 15 8 15 1000
+1 -1 0 0 8 8
+200
+./Assets/Data/Spritesheet/LatexBlob.plSPS
+./Assets/Images/Blob.png
+./Assets/Sounds/Effects/Bubble.wav
+75
+E-C-1-BA1
+0 0 12 12
+2 -1 500
+./Assets/Data/Spritesheet/FactoryBot.plSPS
+./Assets/Images/FactoryBotStun.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-6 -2 -2 -2
+1
+0 0
+0 0 4 4
+-1536 -360 3072 720
+-8 150 2000
+
+50

@@ -1,0 +1,205 @@
+0 0 0
+17
+Arc Turret
+AlienInfo
+3
+Bass
+5
+Arc Turrets are highly charged
+synthetic spheres. The unique
+material allows energy to be formed
+into a ball and fired in the
+direction of nearby organic cells.
+./Assets/Data/Spritesheet/Turret.plSPS
+./Assets/Images/Turret.png
+StunBot
+FactoryInfo
+3
+Bass
+4
+A swift sentry robot equipped
+with a stun gun. Programmed to
+neutralize intruders with
+merciless efficiency.
+./Assets/Data/Spritesheet/FactoryBot.plSPS
+./Assets/Images/FactoryBotStun.png
+DropperBot
+FactoryInfo
+4
+Bass
+5
+A modified industrial robot used
+to subdue intruders. Originally
+developed to place materials on
+assembly lines, it now drops liquid
+latex on any unwanted snoops.
+./Assets/Data/Spritesheet/FactoryBot.plSPS
+./Assets/Images/FactoryBotDropper.png
+Obelisk
+MummyInfo
+4
+Bass
+6
+Enchanted statues tasked with guarding
+the pharaoh's lair. Their piercing
+eye can project her magic to drive off
+intruders. Some are doubly powerful, 
+their surface hot enough to burn
+with the slightest touch.
+./Assets/Data/Spritesheet/Obelisk.plSPS
+./Assets/Images/Obelisk.png
+Cannon Mk. LXIX
+AlienInfo
+5
+Bass
+4
+An energy cannon used to fire 
+high-energy projectiles in a straight
+line. These can blast through solid
+materials or immobilize organic targets.
+./Assets/Data/Spritesheet/EmplacementRight.plSPS
+./Assets/Images/FixedGunRight.png
+Sprinkler
+FactoryInfo
+6
+Bass
+5
+An industrial faucet used to drop
+liquid latex onto conveyor belts in 
+an assembly line. Careless individuals
+may find themselves stuck should they
+wander beneath one.
+./Assets/Data/Spritesheet/Sprinkler.plSPS
+./Assets/Images/Sprinkler.png
+Sphinx Head
+MummyInfo
+6
+Bass
+4
+The disembodied head of a statue.
+The magic of the pyramids causes
+these hunks of artisinal rock to
+float through the air effortlessly.
+./Assets/Data/Spritesheet/Sphinx.plSPS
+./Assets/Images/Sphinx.png
+Stun Trooper
+FactoryInfo
+7
+Bass
+5
+Ruthless mercenaries employed by a
+notorious arms dealer. They carry
+high-voltage stun weapons to quickly
+neutralize any threats to their
+boss's operation.
+./Assets/Data/Spritesheet/Soldier.plSPS
+./Assets/Images/SoldierShock.png
+Goo Trooper
+FactoryInfo
+8
+Bass
+3
+Veteran mercenaries equipped with
+high-tech latex launchers that can
+immobilize a target on impact. 
+./Assets/Data/Spritesheet/Soldier.plSPS
+./Assets/Images/SoldierGoo.png
+Restless Mummy
+MummyInfo
+10
+Bass
+4
+A restless husk of a person, soul long
+gone. Dark magic alone animates these
+corpses, as they have no life or will
+of their own.
+./Assets/Data/Spritesheet/MummyRun.plSPS
+./Assets/Images/Mummy.png
+Service Drone
+AlienInfo
+10
+Bass
+5
+A small repair drone used to
+complete various mechanical tasks.
+Non-aggressive, their only defense
+is a shell that conducts voltage
+when touched.
+./Assets/Data/Spritesheet/Mover.plSPS
+./Assets/Images/AlienMover.png
+Lonely Mummy
+MummyInfo
+15
+Bass
+5
+A cursed soul destined to spend
+eternity alone preserved in
+bandages. It attempts to entrap
+others with a similar fate to
+ease the pangs of loneliness.
+./Assets/Data/Spritesheet/MummyShoot.plSPS
+./Assets/Images/Mummy.png
+Little Green Guy
+AlienInfo
+15
+Bass
+6
+Extraterrestrial lifeforms of
+unknown origin. Very little is
+known about them. Observation
+indicates they have an interest in
+science and the female form, but
+exactly why is unclear.
+./Assets/Data/Spritesheet/Alien.plSPS
+./Assets/Images/Alien.png
+Pharaoh
+MummyInfo
+20
+Bass
+6
+An ancient ruler who siphons the
+youthfulness from young damsels to
+preserve her own stunning appearance.
+Cultists devoted to her provide her
+with a steady supply of nubile
+young women to sate her.
+./Assets/Data/Spritesheet/Pharaoh.plSPS
+./Assets/Images/Pharaoh.png
+Snuggler
+AlienInfo
+20
+DavesDungeon
+7
+The Lapides Ubera, also known as
+"the snuggler," siphons warmth off
+of other organic creatures. It uses
+its long tentacles to keep its host
+subdued. Force feeding is used to
+keep an unwilling host healthy
+enough to provide heat.
+./Assets/Data/Spritesheet/Snuggler.plSPS
+./Assets/Images/Snuggler.png
+Miranda Marlowe
+FactoryInfo
+22
+Bass
+5
+A wealthy marchioness with a mean
+streak. Her interests include dinner
+parties, embroidery, robotics, and
+felony weapons smuggling. She also
+enjoys capturing meddlesome spies.
+./Assets/Data/Spritesheet/MarchionessHover.plSPS
+./Assets/Images/MarchionessHover.png
+Combat Mech
+AlienInfo
+25
+Bass
+5
+A heavily-armored combat suit used
+by alien soldiers. Its thick
+plate is resistant to all forms of
+damage. The only known weak point is
+the exposed pilot's head.
+./Assets/Data/Spritesheet/AlienBoss.plSPS
+./Assets/Images/AlienBoss.png

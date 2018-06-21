@@ -1,0 +1,131 @@
+2
+./Assets/Data/Spritesheet/Empty.plSPS
+./Assets/Images/FactoryDoorOpen.png
+2
+64 256
+3968 96
+./Assets/Data/Spritesheet/Empty.plSPS
+./Assets/Images/FactoryCrusherPipe.png
+20
+896 0
+896 64
+896 128
+1136 0
+1136 64
+1136 128
+1376 0
+1376 64
+1376 128
+3168 0
+3168 64
+3168 128
+3520 0
+3520 64
+3520 128
+3776 0
+3776 64
+3776 128
+2368 0
+2368 32
+6
+./Assets/Data/Spritesheet/ConveyorLeft.plSPS
+./Assets/Images/Conveyor.png
+41
+288 192
+320 192
+352 192
+384 192
+512 96
+544 96
+576 96
+608 96
+640 96
+2112 320
+2144 320
+2176 320
+2208 320
+2336 224
+2368 224
+2400 224
+2432 224
+3072 320
+3104 320
+3136 320
+3168 320
+3200 320
+3232 320
+3264 320
+3296 320
+3328 320
+3360 320
+3392 320
+3424 320
+3456 320
+3488 320
+3520 320
+3552 320
+3584 320
+3616 320
+3648 320
+3680 320
+3712 320
+3744 320
+3776 320
+3808 320
+./Assets/Data/Spritesheet/ConveyorLeft.plSPS
+./Assets/Images/ConveyorLeft.png
+5
+256 192
+480 96
+2080 320
+2304 224
+3040 320
+./Assets/Data/Spritesheet/ConveyorLeft.plSPS
+./Assets/Images/ConveyorRight.png
+5
+416 192
+672 96
+2240 320
+2464 224
+3840 320
+./Assets/Data/Spritesheet/ConveyorRight.plSPS
+./Assets/Images/Conveyor.png
+28
+896 320
+928 320
+960 320
+992 320
+1024 320
+1056 320
+1088 320
+1120 320
+1152 320
+1184 320
+1216 320
+1248 320
+1280 320
+1312 320
+1344 320
+1376 320
+1408 320
+1440 320
+1472 320
+1504 320
+1536 320
+1568 320
+2560 128
+2592 128
+2624 128
+2656 128
+2688 128
+2720 128
+./Assets/Data/Spritesheet/ConveyorRight.plSPS
+./Assets/Images/ConveyorLeft.png
+2
+864 320
+2528 128
+./Assets/Data/Spritesheet/ConveyorRight.plSPS
+./Assets/Images/ConveyorRight.png
+2
+1600 320
+2752 128

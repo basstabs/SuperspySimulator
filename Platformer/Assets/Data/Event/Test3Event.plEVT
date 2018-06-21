@@ -1,0 +1,26 @@
+3
+N-Dossier-4
+item
+Dossier
+224 736 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/Dossier.png
+./Assets/Images/DossierThumbnail.png
+1
+N-Damsel-2
+item
+Damsel
+32 906 54 54
+./Assets/Data/Spritesheet/Damsel.plSPS
+./Assets/Images/Damsels/Damsel2.png
+./Assets/Images/DamselThumbnail.png
+1
+N-Door-2
+trigger
+544 64 64 64
+door
+./Assets/Data/Level/Test4Level.plLVL
+0
+input
+1
+0

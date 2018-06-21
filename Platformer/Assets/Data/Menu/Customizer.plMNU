@@ -1,0 +1,78 @@
+
+./Assets/Munro.ttf
+235 235 235 255
+32
+6
+Outfit:
+200 96
+25 25 25 255
+Hair Style:
+200 160
+25 25 25 255
+Hair Color:
+200 224
+25 25 25 255
+Red:
+200 256
+25 25 25 255
+Green:
+200 288
+25 25 25 255
+Blue:
+200 320
+25 25 25 255
+3
+./Assets/Images/SliderBackground.png
+./Assets/Images/SliderButton.png
+./Assets/Images/Icons.png
+10
+NameChange
+0 0 32 32
+Button
+2
+0 32 32 32
+RedSlider
+352 256 256 32
+Slider
+143
+0 1
+GreenSlider
+352 288 256 32
+Slider
+0
+0 1
+BlueSlider
+352 320 256 32
+Slider
+53
+0 1
+CostumeDown
+352 96 32 32
+Button
+2
+96 0 32 32
+CostumeUp
+576 96 32 32
+Button
+2
+64 0 32 32
+HairDown
+352 160 32 32
+Button
+2
+96 0 32 32
+HairUp
+576 160 32 32
+Button
+2
+64 0 32 32
+Back
+32 320 32 32
+Button-Text
+Back
+25 25 25 255
+Stats
+32 256 32 32
+Button-Text
+Stats
+25 25 25 255

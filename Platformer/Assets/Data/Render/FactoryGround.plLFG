@@ -1,0 +1,42 @@
+5
+./Assets/Data/Spritesheet/Empty.plSPS
+./Assets/Images/FactoryDoorOpen.png
+5
+1088 608
+416 608
+64 96
+64 384
+1376 96
+./Assets/Data/Spritesheet/Empty.plSPS
+./Assets/Images/FactoryDoorClosed.png
+1
+64 928
+./Assets/Data/Spritesheet/Empty.plSPS
+./Assets/Images/FactoryDoorClosedRedKey.png
+1
+1088 608
+./Assets/Data/Spritesheet/Empty.plSPS
+./Assets/Images/FactoryDoorClosedBlueKey.png
+1
+64 384
+./Assets/Data/Spritesheet/Empty.plSPS
+./Assets/Images/FactoryDoorClosedGreenKey.png
+1
+1376 96
+3
+./Assets/Data/Spritesheet/ConveyorLeft.plSPS
+./Assets/Images/Conveyor.png
+5
+512 960
+544 960
+576 960
+608 960
+640 960
+./Assets/Data/Spritesheet/ConveyorLeft.plSPS
+./Assets/Images/ConveyorLeft.png
+1
+480 960
+./Assets/Data/Spritesheet/ConveyorLeft.plSPS
+./Assets/Images/ConveyorRight.png
+1
+672 960

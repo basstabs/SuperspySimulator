@@ -1,0 +1,7 @@
+Projectile
+-8 10 8 10 1500
+1 3 0 0 6 3
+400
+./Assets/Data/Spritesheet/Bullet.plSPS
+./Assets/Images/Bullet.png
+./Assets/Sounds/Effects/Cannon.wav

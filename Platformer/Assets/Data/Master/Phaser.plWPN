@@ -1,0 +1,16 @@
+Multishot
+-8 6 16 6 1000
+3
+1 1 0 0 8 8
+350 0
+./Assets/Data/Spritesheet/Fireball.plSPS
+./Assets/Images/Fireball.png
+1 1 0 0 8 8
+175 -175
+./Assets/Data/Spritesheet/Fireball.plSPS
+./Assets/Images/Fireball.png
+1 1 0 0 8 8
+175 175
+./Assets/Data/Spritesheet/Fireball.plSPS
+./Assets/Images/Fireball.png
+./Assets/Sounds/Effects/Fireball.wav

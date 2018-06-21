@@ -1,0 +1,89 @@
+6
+./Assets/Data/Spritesheet/Empty.plSPS
+./Assets/Images/MummyDoorOpen.png
+3
+736 3616
+1440 960
+1024 128
+./Assets/Data/Spritesheet/Empty.plSPS
+./Assets/Images/MummyDoorClosed.png
+4
+64 4000
+736 3392
+1536 3968
+1846 3872
+./Assets/Data/Spritesheet/Torch.plSPS
+./Assets/Images/Torch.png
+39
+144 4016
+36 4016
+708 3408
+816 3408
+1508 3984
+1616 3984
+1818 3888
+954 3344
+954 2992
+954 2640
+858 2064
+1146 3344
+1146 2992
+1146 2640
+1242 2064
+1466 2192
+1690 2256
+636 2192
+282 2128
+314 2298
+442 2448
+636 2608
+266 2656
+954 1872
+954 1520
+954 1168
+858 976
+1146 1872
+1146 1520
+1146 1168
+1242 976
+1412 976
+762 1200
+954 816
+1018 336
+1146 816
+1082 336
+996 144
+1104 144
+./Assets/Data/Spritesheet/Empty.plSPS
+./Assets/Images/MummyDoorClosedGreenKey.png
+1
+1440 960
+./Assets/Data/Spritesheet/Empty.plSPS
+./Assets/Images/MummyDoorClosedBlueKey.png
+1
+1024 128
+./Assets/Data/Spritesheet/Empty48.plSPS
+./Assets/Images/PharaohStatueLeft.png
+1
+904 128
+2
+./Assets/Data/Spritesheet/MummySpikes.plSPS
+./Assets/Images/MummySpikes.png
+8
+1760 4048
+1792 4048
+1664 2384
+1696 2384
+672 1232 
+704 1232
+736 1232
+768 1232
+./Assets/Data/Spritesheet/Cat.plSPS
+./Assets/Images/Cat.png
+6
+808 1004
+1416 2220
+648 2636
+1192 3436
+456 3916
+1224 4012

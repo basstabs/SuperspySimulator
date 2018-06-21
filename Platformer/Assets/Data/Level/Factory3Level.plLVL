@@ -1,0 +1,74 @@
+4096 360 -1 0
+3
+3995 270
+2075 206
+91 142
+Factory3Collision.plCOL
+FactoryMaster.plMST
+Factory3Ground.plLFG
+Factory3Event.plEVT
+Factory3Tile.plTLM
+./Assets/Sounds/Music/FactoryLevel.wav
+8
+E-Emplacement-0
+2288 32
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Emplacement-1
+584 32
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Patrol-0
+2432 48
+1
+E-P-1-BA1
+1
+GC
+1
+E-Patrol-1
+3072 48
+1
+E-P-1-BA1
+1
+GC
+1
+E-Chaser-0
+3328 192
+1
+E-C-2-BA1
+1
+GC
+1
+E-Chaser-1
+512 96
+1
+E-C-2-BA1
+1
+GC
+1
+E-Patrol-2
+1888 206
+1
+E-P-3-BA1
+1
+GC
+1
+E-Patrol-3
+1312 270
+1
+E-P-2-BA1
+1
+GC
+1
+FactoryInfo
+0 0 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/FactoryInfo.png
+./Assets/Images/FactoryThumbnail.png
+20

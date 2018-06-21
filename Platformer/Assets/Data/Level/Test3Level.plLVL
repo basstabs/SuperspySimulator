@@ -1,0 +1,44 @@
+640 2048 0 -1
+1
+544 1966
+Test3Collision.plCOL
+TestMaster.plMST
+Test3Ground.plLFG
+Test3Event.plEVT
+Test3Tile.plTLM
+./Assets/Sounds/Music/AlienLevel.wav
+4
+E-Turret-1
+192 1568
+1
+E-T-1-BA1
+1
+GC
+1
+E-Turret-2
+128 1024
+1
+E-T-1-BA1
+1
+GC
+1
+E-EmplacementDown-1
+512 256
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Snuggler-1
+320 96
+1
+E-C-1
+1
+GC
+1
+AlienInfo
+0 0 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/AlienInfo.png
+./Assets/Images/AlienThumbnail.png
+20

@@ -1,0 +1,50 @@
+6
+N-Damsel-1
+item
+Damsel
+1920 554 54 54
+./Assets/Data/Spritesheet/Damsel.plSPS
+./Assets/Images/Damsels/Damsel1.png
+./Assets/Images/DamselThumbnail.png
+1
+N-Door-1
+trigger
+64 544 64 64
+door
+./Assets/Data/Level/FactoryLevel.plLVL
+2
+input
+1
+0
+N-Elevator-2
+trigger
+384 544 96 64
+platform
+0
+input
+2
+0 7
+N-Elevator-2
+trigger
+640 544 96 64
+platform
+0
+input
+2
+0 7
+N-Key-0
+item
+RedKey
+214 120 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/RedKey.png
+./Assets/Images/RedKeyThumbnail.png
+1
+N-CorpseRun
+item
+CorpseRun
+48 106 54 54
+./Assets/Data/Spritesheet/Damsel.plSPS
+./Assets/Images/Damsels/Damsel
+
+1

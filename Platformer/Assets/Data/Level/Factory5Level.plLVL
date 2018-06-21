@@ -1,0 +1,88 @@
+4096 360 -1 -1
+3
+91 270
+2075 174
+3995 110
+Factory5Collision.plCOL
+FactoryMaster.plMST
+Factory5Ground.plLFG
+Factory5Event.plEVT
+Factory5Tile.plTLM
+./Assets/Sounds/Music/FactoryLevel.wav
+10
+E-Emplacement-0
+336 32
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Emplacement-1
+816 32
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Emplacement-2
+1040 192
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Emplacement-3
+1496 32
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Emplacement-4
+2160 32
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Emplacement-5
+2480 32
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Emplacement-6
+3088 128
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Emplacement-7
+3408 224
+1
+E-Emp-1-Down-BA1
+1
+GC
+1
+E-Patrol-0
+1840 78
+1
+E-P-2-BA1
+1
+GC
+1
+E-Patrol-1
+2928 174
+1
+E-P-3-BA1
+1
+GC
+1
+FactoryInfo
+0 0 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/FactoryInfo.png
+./Assets/Images/FactoryThumbnail.png
+20

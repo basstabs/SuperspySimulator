@@ -1,0 +1,39 @@
+5
+./Assets/Data/Spritesheet/Empty.plSPS
+./Assets/Images/MummyDoorOpen.png
+1
+288 64
+./Assets/Data/Spritesheet/Empty.plSPS
+./Assets/Images/MummyDoorClosed.png
+1
+288 384
+./Assets/Data/Spritesheet/Torch.plSPS
+./Assets/Images/Torch.png
+4
+260 400
+190 400
+368 400
+438 400
+./Assets/Data/Spritesheet/Empty48.plSPS
+./Assets/Images/PharaohStatueLeft.png
+1
+128 384
+./Assets/Data/Spritesheet/Empty48.plSPS
+./Assets/Images/PharaohStatueRight.png
+1
+464 384
+2
+./Assets/Data/Spritesheet/MummySpikes.plSPS
+./Assets/Images/MummySpikes.png
+6
+32 496
+64 496
+96 496
+512 496
+544 496
+576 496
+./Assets/Data/Spritesheet/Cat.plSPS
+./Assets/Images/Cat.png
+2
+220 428
+280 204

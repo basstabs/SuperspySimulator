@@ -1,0 +1,32 @@
+
+./Assets/Munro.ttf
+235 235 235 255
+32
+3
+Name:
+160 32
+25 25 25 255
+Discovered:
+160 64
+25 25 25 255
+Description:
+160 96
+25 25 25 255
+1
+./Assets/Images/Icons.png
+3
+Back
+32 320 32 32
+Button-Text
+Back
+25 25 25 255
+PageDown
+600 296 32 32
+Button
+0
+32 0 32 32
+PageUp
+600 32 32 32
+Button
+0
+0 0 32 32

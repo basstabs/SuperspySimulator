@@ -1,0 +1,35 @@
+4
+./Assets/Data/Spritesheet/Empty.plSPS
+./Assets/Images/MummyDoorOpen.png
+1
+800 928
+./Assets/Data/Spritesheet/Empty.plSPS
+./Assets/Images/MummyDoorClosed.png
+1
+64 928
+./Assets/Data/Spritesheet/Torch.plSPS
+./Assets/Images/Torch.png
+13
+96 80
+320 80
+544 80
+256 256
+128 352
+128 448
+128 544
+128 640
+192 944
+736 944
+1504 944
+800 704
+416 704
+./Assets/Data/Spritesheet/Empty.plSPS
+./Assets/Images/MummyDoorClosedRedKey.png
+1
+800 928
+1
+./Assets/Data/Spritesheet/Cat.plSPS
+./Assets/Images/Cat.png
+2
+872 556
+552 972

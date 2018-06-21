@@ -1,0 +1,126 @@
+7
+E-Emp-1-Down-BA1
+0 0 14 22
+2 1 500
+./Assets/Data/Spritesheet/Sprinkler.plSPS
+./Assets/Images/Sprinkler.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-1 0 -1 0
+0 1
+Projectile
+2 18 2 18 1500
+1 -1 0 0 12 16
+250
+./Assets/Data/Spritesheet/LatexDrop.plSPS
+./Assets/Images/LatexDrop.png
+./Assets/Sounds/Effects/Bubble.wav
+25
+E-C-1-BA1
+0 0 12 12
+2 1 500
+./Assets/Data/Spritesheet/FactoryBot.plSPS
+./Assets/Images/FactoryBotStun.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-6 -2 -2 -2
+1
+0 0
+0 0 4 4
+-320 -112 640 224
+-8 150 2000
+
+50
+E-C-2-BA1
+0 0 12 12
+2 1 500
+./Assets/Data/Spritesheet/FactoryBot.plSPS
+./Assets/Images/FactoryBotStun.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-6 -2 -2 -2
+1
+0 0
+0 0 4 4
+-400 -256 800 512
+-8 150 2000
+
+50
+E-M-1-BA1
+0 0 12 12
+2 1 500
+./Assets/Data/Spritesheet/FactoryBot.plSPS
+./Assets/Images/FactoryBotStun.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-6 -2 -2 -2
+Constant
+5
+64
+0
+0
+0
+-64
+50
+E-P-1-BA1
+0 0 12 12
+2 1 500
+./Assets/Data/Spritesheet/FactoryBot.plSPS
+./Assets/Images/FactoryBotDropper.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-6 -2 -2 -2
+-128 128 96
+-128 0 256 512
+0 1
+Projectile
+2 18 2 18 750
+1 -1 0 0 12 16
+300
+./Assets/Data/Spritesheet/LatexDrop.plSPS
+./Assets/Images/LatexDrop.png
+./Assets/Sounds/Effects/Bubble.wav
+50
+E-P-2-BA1
+0 0 10 50
+4 1 1000
+./Assets/Data/Spritesheet/Soldier.plSPS
+./Assets/Images/SoldierGoo.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-36 -4 -8 -4
+-200 200 64
+-200 -64 400 96
+1 0
+Projectile
+-8 15 8 15 1000
+1 -1 0 0 8 8
+200
+./Assets/Data/Spritesheet/LatexBlob.plSPS
+./Assets/Images/Blob.png
+./Assets/Sounds/Effects/Bubble.wav
+75
+E-P-3-BA1
+0 0 10 50
+4 1 1000
+./Assets/Data/Spritesheet/Soldier.plSPS
+./Assets/Images/SoldierShock.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-36 -4 -8 -4
+-112 112 96
+-144 -64 288 96
+1 0
+Melee
+1 100 0
+16 6
+-8 16 8 16
+
+50

@@ -1,0 +1,23 @@
+640 360 0 0
+1
+320 270
+Mummy3Collision.plCOL
+TestMaster.plMST
+Mummy3Ground.plLFG
+Mummy3Event.plEVT
+Mummy3Tile.plTLM
+./Assets/Sounds/Music/MummyLevel.wav
+1
+E-Patrol-1
+320 151
+1
+E-P-1-BA1
+1
+GC
+1
+MummyInfo
+0 0 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/MummyInfo.png
+./Assets/Images/MummyThumbnail.png
+20

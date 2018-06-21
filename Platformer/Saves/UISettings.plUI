@@ -1,0 +1,32 @@
+./Assets/Images/Cursor.png
+./Assets/Images/Icons.png
+9
+0 0
+32 0
+64 0
+96 0
+0 32
+32 32
+64 32
+96 32
+0 64
+./Assets/Images/HealthBar.png
+./Assets/Images/HealthBarFiller.png
+./Assets/Images/ReputationBar.png
+./Assets/Images/ReputationBarFiller.png
+20 20 7 7
+380 20 7 7
+0 255 0
+1
+0.2 255 25 25
+./Assets/Munro.ttf
+20 2
+255 255 255
+./Assets/Sounds/Effects/Confirm.wav
+./Assets/Sounds/Effects/Cancel.wav
+./Assets/Sounds/Effects/Heal.wav
+./Assets/Sounds/Effects/ItemGet.wav
+./Assets/Images/Reputation.png
+200 200 255
+128 0 0
+20 52 12 8

@@ -1,0 +1,34 @@
+4
+N-Damsel-3
+item
+Damsel
+554 266 54 54
+./Assets/Data/Spritesheet/Damsel.plSPS
+./Assets/Images/Damsels/Damsel3.png
+./Assets/Images/DamselThumbnail.png
+1
+N-DoorsOpen-0
+trigger
+192 32 256 288
+platform
+0
+and
+single
+defeat
+E-Boss-1
+N-Exit-0
+trigger
+544 64 64 64
+exit
+input
+1
+0
+N-BossDead-0
+trigger
+1 1 1 1
+sound
+./Assets/Sounds/Effects/BossKill.wav
+and
+single
+defeat
+E-Boss-1

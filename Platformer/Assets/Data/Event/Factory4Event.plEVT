@@ -1,0 +1,59 @@
+7
+N-Damsel-5
+item
+Damsel
+224 554 54 54
+./Assets/Data/Spritesheet/Damsel.plSPS
+./Assets/Images/Damsels/Damsel5.png
+./Assets/Images/DamselThumbnail.png
+1
+N-Damsel-6
+item
+Damsel
+64 1002 54 54
+./Assets/Data/Spritesheet/Damsel.plSPS
+./Assets/Images/Damsels/Damsel6.png
+./Assets/Images/DamselThumbnail.png
+1
+N-Dossier-4
+item
+Dossier
+384 416 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/Dossier.png
+./Assets/Images/DossierThumbnail.png
+1
+N-Dossier-5
+item
+Dossier
+86 1120 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/Dossier.png
+./Assets/Images/DossierThumbnail.png
+1
+N-Key-2
+item
+BlueKey
+566 278 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/BlueKey.png
+./Assets/Images/BlueKeyThumbnail.png
+1
+N-Door-5
+trigger
+544 96 64 64
+door
+./Assets/Data/Level/FactoryLevel.plLVL
+1
+input
+1
+0
+N-Door-6
+trigger
+64 1952 64 64
+door
+./Assets/Data/Level/Factory4Level.plLVL
+1
+input
+1
+0

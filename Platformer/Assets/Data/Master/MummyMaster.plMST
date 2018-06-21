@@ -1,0 +1,124 @@
+7
+E-T-1
+0 0 16 58
+3 1 500
+./Assets/Data/Spritesheet/Obelisk.plSPS
+./Assets/Images/Obelisk.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+8 -6 -8 -6
+-60 180 -30 300
+Projectile
+5 5 5 5 2000
+1 1 0 5 10 10
+150
+./Assets/Data/Spritesheet/Magicball.plSPS
+./Assets/Images/Magicball.png
+./Assets/Sounds/Effects/Fireball.wav
+15
+E-T-2-BA1
+0 0 16 58
+3 1 500
+./Assets/Data/Spritesheet/Obelisk.plSPS
+./Assets/Images/ObeliskGlow.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+8 -6 -8 -6
+-60 180 -30 300
+Projectile
+5 5 5 5 2000
+1 1 0 5 10 10
+150
+./Assets/Data/Spritesheet/Magicball.plSPS
+./Assets/Images/Magicball.png
+./Assets/Sounds/Effects/Fireball.wav
+15
+E-M-1-BA2
+0 0 16 16
+1 1 500
+./Assets/Data/Spritesheet/Sphinx.plSPS
+./Assets/Images/Sphinx.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-5 -3 -5 -3
+Constant
+5
+32
+-64
+0
+64
+0
+20
+E-M-2-BA2
+0 0 16 16
+1 1 500
+./Assets/Data/Spritesheet/Sphinx.plSPS
+./Assets/Images/Sphinx.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-5 -3 -5 -3
+Constant
+5
+32
+0
+-64
+0
+64
+20
+E-M-3-BA1
+0 0 10 50
+4 1 750
+./Assets/Data/Spritesheet/MummyRun.plSPS
+./Assets/Images/Mummy.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-36 -4 -8 -4
+Constant
+5
+96
+-128
+0
+128
+0
+30
+E-Emp-1-Right-BA1
+0 0 10 50
+2 1 1000
+./Assets/Data/Spritesheet/MummyShoot.plSPS
+./Assets/Images/Mummy.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-36 -4 -8 -4
+1 0
+Projectile
+-15 6 15 6 1000
+1 -1 0 0 18 14
+300
+./Assets/Data/Spritesheet/Bandage.plSPS
+./Assets/Images/Bandage.png
+./Assets/Sounds/Effects/Fireball.wav
+30
+E-Emp-1-Left-BA1
+0 0 10 50
+2 -1 1000
+./Assets/Data/Spritesheet/MummyShoot.plSPS
+./Assets/Images/Mummy.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-36 -4 -8 -4
+1 0
+Projectile
+-15 6 15 6 1000
+1 -1 0 0 18 14
+-300
+./Assets/Data/Spritesheet/Bandage.plSPS
+./Assets/Images/Bandage.png
+./Assets/Sounds/Effects/Fireball.wav
+30

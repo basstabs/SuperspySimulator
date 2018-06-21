@@ -1,0 +1,23 @@
+640 360 0 0
+1
+48 78
+BossCollision.plCOL
+BossMaster.plMST
+BossGround.plLFG
+BossEvent.plEVT
+BossTile.plTLM
+./Assets/Sounds/Music/AlienBoss.wav
+1
+E-Boss-1
+448 262
+1
+E-F-1-BA2
+1
+GC
+1
+AlienInfo
+0 0 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/AlienInfo.png
+./Assets/Images/AlienThumbnail.png
+20
