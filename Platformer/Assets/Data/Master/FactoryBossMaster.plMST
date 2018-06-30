@@ -1,7 +1,7 @@
 4
 E-F-1-BA1
 0 0 20 58
-6 -1 4000
+7 -1 4000
 ./Assets/Data/Spritesheet/MarchionessHover.plSPS
 ./Assets/Images/MarchionessHover.png
 ./Assets/Data/Spritesheet/Empty.plSPS
@@ -27,10 +27,10 @@ Hurt
 11
 hurt != 0
 6 1
-health == 4
-2 4
-health == 2
-3 5
+health <= 2
+2 5
+health <= 4
+3 4
 Hurt 0
 -1 -1
 scripted 6 Hurt 0 , GoTo 5 200 480 44 0 0 , Shoot 2 1 3 , Turn 0 , GoTo 5 200 928 44 0 0 , Turn 0 ,

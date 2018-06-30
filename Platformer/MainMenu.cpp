@@ -35,19 +35,30 @@ namespace Platformer
 		if (this->inputs["StartButton"]->Value())
 		{
 
-			UI::AccessUI()->PlayConfirmEffect();
+			if (SaveData::AccessSaveData()->DefeatedLevel().size() == 0)
+			{
 
-			LevelSelect* levelSelect = new LevelSelect();
-			levelSelect->Initialize(0, NULL);
+				UI::AccessUI()->PlayConfirmEffect();
 
-			char* files[2];
-			files[0] = "./Saves/Levels.plLVS";
-			files[1] = "./Assets/Images/LevelFrame.png";
+				LevelSelect* levelSelect = new LevelSelect();
+				levelSelect->Initialize(0, NULL);
 
-			levelSelect->LoadContent(2, files);
-			levelSelect ->SetRunning(true);
+				char* files[2];
+				files[0] = "./Saves/Levels.plLVS";
+				files[1] = "./Assets/Images/LevelFrame.png";
 
-			engine.RegisterState(levelSelect);
+				levelSelect->LoadContent(2, files);
+				levelSelect->SetRunning(true);
+
+				engine.RegisterState(levelSelect);
+
+			}
+			else
+			{
+
+				UI::AccessUI()->PlayCancelEffect();
+
+			}
 
 		}
 
