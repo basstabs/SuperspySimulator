@@ -173,6 +173,16 @@ namespace Platformer
 				settings->removeByType[type] = remove;
 
 			}
+			else if (type == HARD_CODE)
+			{
+
+				bool h;
+
+				input >> h;
+
+				settings->SetHardMode(h);
+
+			}
 
 		}
 
@@ -273,7 +283,7 @@ namespace Platformer
 		file << SOUND_CODE << DELIMITER << this->soundVolume << std::endl;
 		file << MUSIC_CODE << DELIMITER << this->musicVolume << std::endl;
 		file << DEBUG_CODE << DELIMITER << this->debug << std::endl;
-
+		file << HARD_CODE << DELIMITER << this->hardMode << std::endl;
 		file << std::endl;
 
 		for (int i = 0; i < NUM_INPUTS; i++)
@@ -304,6 +314,27 @@ namespace Platformer
 		}
 
 		file.close();
+
+	}
+
+	std::string Settings::InputText(int index)
+	{
+
+		return SDL_GetScancodeName(this->controls.keys[index]);
+
+	}
+
+	bool Settings::HardMode()
+	{
+
+		return this->hardMode;
+
+	}
+
+	void Settings::SetHardMode(bool h)
+	{
+
+		this->hardMode = h;
 
 	}
 

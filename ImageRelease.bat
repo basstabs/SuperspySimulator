@@ -13,7 +13,7 @@
 @set HAIR=(Pixie,Spiky,Ponytail,Bob,Straight)
 @set COSTUMES=(Dress,Harem,Bunny,Catsuit,Casual,Workout,Maid,Lingerie)
 @set WEAPONS=(Base,Handcannon,Phaser,Magnum,Uzi)
-@set LEVELS=(Alien,Mummy,Factory)
+@set LEVELS=(Alien,Mummy,Factory,Tropic)
 
 REM Heroine Sheet
 

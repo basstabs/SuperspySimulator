@@ -1,5 +1,5 @@
 0 0 0
-17
+19
 Arc Turret
 AlienInfo
 3
@@ -127,6 +127,28 @@ is a shell that conducts voltage
 when touched.
 ./Assets/Data/Spritesheet/Mover.plSPS
 ./Assets/Images/AlienMover.png
+Latex Betty
+FactoryInfo
+12
+PolyEdit2000
+4
+A robotic mine engineered after alien
+technology. Fires latex projectiles
+instead of lethal energy bolts to
+entrap unwanted guests.
+./Assets/Data/Spritesheet/Betty.plSPS
+./Assets/Images/BettyFactory.png
+Bouncy Betty
+AlienInfo
+12
+PolyEdit2000
+4
+An alien device used to neutralize
+invaders. Once triggered, it 
+flies up and rains energy bolts
+down on the unsuspecting victim.
+./Assets/Data/Spritesheet/Betty.plSPS
+./Assets/Images/Betty.png
 Lonely Mummy
 MummyInfo
 15

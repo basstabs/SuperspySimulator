@@ -1452,6 +1452,8 @@ namespace Platformer
 		FSM::states["GoTo"] = FSM::FSMGoto;
 		FSM::states["Idle"] = FSM::FSMIdle;
 		FSM::states["Hurt"] = FSM::FSMHurt;
+		FSM::states["Ambush"] = FSM::FSMAmbush;
+		FSM::states["SelfDestruct"] = FSM::FSMSelfDestruct;
 
 		compareFunctions["<="] = LessEqual;
 		compareFunctions[">="] = GreaterEqual;
@@ -1887,6 +1889,93 @@ namespace Platformer
 			fsm->choice = "";
 
 			fsm->lastSwitch = GetTime();
+
+		}
+
+	}
+
+	void FSM::FSMAmbush(FSM* fsm, std::vector<GameEntity*>& entities, std::vector<Attack*>& attacks, float deltaTime)
+	{
+
+		//Wait
+		if (fsm->fsm["Ambush"].size() == 8)
+		{
+
+			AABB zone(fsm->X() + fsm->fsm["Ambush"][0], fsm->Y() + fsm->fsm["Ambush"][1], fsm->fsm["Ambush"][2], fsm->fsm["Ambush"][3]);
+
+			for (int i = 0; i < entities.size(); i++)
+			{
+
+				if (entities[i]->Intersects(&zone) && entities[i]->Type()[0] != fsm->Type()[0])
+				{
+
+					fsm->stateAnimations[fsm->choice].first = (int)fsm->fsm["Ambush"][7];
+
+					//Trigger Ambush
+					Vector2 unit(fsm->fsm["Ambush"][4], fsm->fsm["Ambush"][5]);
+					unit.Normalize();
+
+					fsm->fsm["Ambush"].push_back(unit.X());
+					fsm->fsm["Ambush"].push_back(unit.Y());
+
+					fsm->fsm["Ambush"].push_back(fsm->X() + fsm->fsm["Ambush"][4]);
+					fsm->fsm["Ambush"].push_back(fsm->Y() + fsm->fsm["Ambush"][5]);
+
+				}
+
+			}
+
+		}
+		//Ambush
+		else
+		{
+
+			Vector2 unit(fsm->fsm["Ambush"][8], fsm->fsm["Ambush"][9]);
+
+			fsm->SetVelocity(unit * (fsm->fsm["Ambush"][6] * deltaTime));
+			fsm->Move(fsm->velocity);
+
+			Vector2 distance(fsm->fsm["Ambush"][10] - fsm->X(), fsm->fsm["Ambush"][11] - fsm->Y());
+
+			if (distance.Dot(unit) <= 0)
+			{
+
+				fsm->SetX(fsm->fsm["Ambush"][10]);
+				fsm->SetY(fsm->fsm["Ambush"][11]);
+
+				fsm->lastChoice = fsm->choice;
+				fsm->choice = "";
+
+				fsm->fsm["Ambush"].pop_back();
+				fsm->fsm["Ambush"].pop_back();
+				fsm->fsm["Ambush"].pop_back();
+				fsm->fsm["Ambush"].pop_back();
+
+				fsm->lastSwitch = GetTime();
+
+			}
+
+		}
+
+	}
+
+	void FSM::FSMSelfDestruct(FSM* fsm, std::vector<GameEntity*>& entitites, std::vector<Attack*>& attacks, float deltaTime)
+	{
+
+		fsm->hurtBox.SetWidth(-10000);
+		fsm->hurtBox.SetHeight(-10000); //HAX: Ensure there's no intersection
+
+		if (fsm->fsm["SelfDestruct"].size() > 0 && !fsm->sheet.Playing())
+		{
+
+			fsm->active = false;
+
+		}
+
+		if (fsm->fsm["SelfDestruct"].size() == 0)
+		{
+
+			fsm->fsm["SelfDestruct"].push_back(1);
 
 		}
 

@@ -8,6 +8,7 @@
 #include "SaveData.h"
 #include "CharacterSelect.h"
 #include "ResultsScreen.h"
+#include "Event.h"
 
 namespace Platformer
 {
@@ -69,6 +70,8 @@ namespace Platformer
 		this->player = new Player(this);
 
 		this->entities.push_back(this->player);
+
+		this->pauseText = NULL;
 
 	}
 
@@ -493,28 +496,60 @@ namespace Platformer
 			SDL_Rect dest = { 0, 0, PLATFORMER_TARGET_WIDTH, PLATFORMER_TARGET_HEIGHT };
 			SDL_RenderCopyEx(renderer, blankSurface, NULL, &dest, 0, NULL, SDL_FLIP_NONE);
 
-			UI::AccessUI()->RenderText(Vector2(PLATFORMER_TARGET_WIDTH / 2.0, PLATFORMER_TARGET_HEIGHT / 2.0), "Paused", { 255, 255, 255 });
+			if (!this->pauseText)
+			{
 
-			UI::AccessUI()->RenderText(Vector2((PLATFORMER_TARGET_WIDTH / 2.0) + 16, (PLATFORMER_TARGET_HEIGHT / 2.0) + 64), "Resume", { 224, 224, 224 }, false);
-			UI::AccessUI()->RenderText(Vector2((PLATFORMER_TARGET_WIDTH / 2.0) + 16, (PLATFORMER_TARGET_HEIGHT / 2.0) + 96), "Title Screen", { 224, 224, 224 }, false);
-			UI::AccessUI()->RenderText(Vector2((PLATFORMER_TARGET_WIDTH / 2.0) + 16, (PLATFORMER_TARGET_HEIGHT / 2.0) + 128), "Quit", { 224, 224, 224 }, false);
+				UI::AccessUI()->RenderText(Vector2(PLATFORMER_TARGET_WIDTH / 2.0, PLATFORMER_TARGET_HEIGHT / 2.0), "Paused", { 255, 255, 255 });
 
-			dest.w = dest.h = 32;
-			dest.x = (PLATFORMER_TARGET_WIDTH / 2.0) - 64;
-			dest.y = (PLATFORMER_TARGET_HEIGHT / 2.0) + 56;
+				UI::AccessUI()->RenderText(Vector2((PLATFORMER_TARGET_WIDTH / 2.0) + 16, (PLATFORMER_TARGET_HEIGHT / 2.0) + 64), "Resume", { 224, 224, 224 }, false);
+				UI::AccessUI()->RenderText(Vector2((PLATFORMER_TARGET_WIDTH / 2.0) + 16, (PLATFORMER_TARGET_HEIGHT / 2.0) + 96), "Title Screen", { 224, 224, 224 }, false);
+				UI::AccessUI()->RenderText(Vector2((PLATFORMER_TARGET_WIDTH / 2.0) + 16, (PLATFORMER_TARGET_HEIGHT / 2.0) + 128), "Quit", { 224, 224, 224 }, false);
 
-			SDL_Texture* tex = UI::AccessUI()->InputsTexture();
+				dest.w = dest.h = 32;
+				dest.x = (PLATFORMER_TARGET_WIDTH / 2.0) - 64;
+				dest.y = (PLATFORMER_TARGET_HEIGHT / 2.0) + 56;
 
-			SDL_Rect* src = UI::AccessUI()->InputSource(START_CODE);
-			SDL_RenderCopy(renderer, tex, src, &dest);
+				SDL_Texture* tex = UI::AccessUI()->InputsTexture();
 
-			dest.y += 32;
-			src = UI::AccessUI()->InputSource(ACTION_CODE);
-			SDL_RenderCopy(renderer, tex, src, &dest);
+				SDL_Rect* src = UI::AccessUI()->InputSource(START_CODE);
+				SDL_RenderCopy(renderer, tex, src, &dest);
 
-			dest.y += 32;
-			src = UI::AccessUI()->InputSource(SELECT_CODE);
-			SDL_RenderCopy(renderer, tex, src, &dest);
+				dest.y += 32;
+				src = UI::AccessUI()->InputSource(ACTION_CODE);
+				SDL_RenderCopy(renderer, tex, src, &dest);
+
+				dest.y += 32;
+				src = UI::AccessUI()->InputSource(SELECT_CODE);
+				SDL_RenderCopy(renderer, tex, src, &dest);
+
+			}
+			else
+			{
+
+				for (int i = 0; i < this->pauseText->text.size(); i++)
+				{
+
+					UI::AccessUI()->RenderText(this->pauseText->text[i].first, this->pauseText->text[i].second, { 255, 255, 255 }, false);
+
+				}
+
+				for (int i = 0; i < this->pauseText->inputs.size(); i++)
+				{
+
+					SDL_Texture* tex = UI::AccessUI()->InputsTexture();
+
+					SDL_Rect* src = UI::AccessUI()->InputSource(this->pauseText->inputs[i].second);
+
+					SDL_Rect dest;
+					dest.w = dest.h = 32;
+					dest.x = this->pauseText->inputs[i].first.X();
+					dest.y = this->pauseText->inputs[i].first.Y();
+
+					SDL_RenderCopy(renderer, tex, src, &dest);
+
+				}
+
+			}
 
 		}
 
@@ -610,25 +645,32 @@ namespace Platformer
 
 		}
 
+		this->pauseText = NULL;
+
 	}
 
 	bool Platformer::UnpauseCondition()
 	{
 
-		if (Settings::AccessSettings()->Controls()->Pressed(ACTION_CODE))
+		if (!this->pauseText)
 		{
 
-			this->SetRunning(false);
+			if (Settings::AccessSettings()->Controls()->Pressed(ACTION_CODE))
+			{
 
-			SaveData::AccessSaveData()->ClearAtRisk();
-			EscapeMinigame::Reset();
+				this->SetRunning(false);
 
-		}
+				SaveData::AccessSaveData()->ClearAtRisk();
+				EscapeMinigame::Reset();
 
-		if (Settings::AccessSettings()->Controls()->Pressed(SELECT_CODE))
-		{
+			}
 
-			engine.EndMainLoop();
+			if (Settings::AccessSettings()->Controls()->Pressed(SELECT_CODE))
+			{
+
+				engine.EndMainLoop();
+
+			}
 
 		}
 
@@ -650,6 +692,16 @@ namespace Platformer
 		{
 
 			this->pauseKeyUp = true;
+
+		}
+
+		if (engine.Transitioned())
+		{
+
+			this->LoadLevel(this->currentLevel, this->spawn);
+			engine.BeginScreenTransition(-1);
+
+			this->level->Start();
 
 		}
 
@@ -824,6 +876,15 @@ namespace Platformer
 		this->currentLevel = level;
 
 		engine.BeginScreenTransition(1);
+
+	}
+
+	void Platformer::TriggerPauseText(PauseText* t)
+	{
+
+		this->pauseText = t;
+
+		engine.Pause();
 
 	}
 

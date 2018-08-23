@@ -1,0 +1,32 @@
+1536 1024 -1 -1
+3
+123 910
+827 910
+315 142
+Tutorial2Collision.plCOL
+TutorialMaster.plMST
+Tutorial2Ground.plLFG
+Tutorial2Event.plEVT
+Tutorial2Tile.plTLM
+./Assets/Sounds/Music/TutorialLevel.wav
+2
+E-Robot-2
+828 78
+1
+E-M-1-BA1
+1
+GC
+1
+E-AutoTaper-0
+640 480
+1
+E-C-1
+1
+GC
+1
+TutorialInfo
+0 0 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/Info.png
+./Assets/Images/Thumbnail.png
+0

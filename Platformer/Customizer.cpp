@@ -26,6 +26,8 @@ namespace Platformer
 		this->core.hairColor.g = 255;
 		this->core.hairColor.b = 255;
 
+		this->currentSheet = NULL;
+
 	}
 
 	Customizer::~Customizer()
@@ -57,6 +59,14 @@ namespace Platformer
 
 			SDL_DestroyTexture(this->koBase);
 			this->koBase = NULL;
+
+		}
+
+		if (this->playerBonds)
+		{
+
+			SDL_DestroyTexture(this->playerBonds);
+			this->playerBonds = NULL;
 
 		}
 
@@ -131,6 +141,8 @@ namespace Platformer
 
 		this->oldName = SaveData::AccessSaveData()->Name();
 
+		this->currentSheet = &this->playerSheet;
+
 	}
 
 	void CustomizerCore::Load(std::string base, std::string options, std::string level)
@@ -142,6 +154,7 @@ namespace Platformer
 		if (level.size() > 0)
 		{
 
+			this->playerBonds = LoadTexture(level + "Bonds.png");
 			this->bonds = LoadTexture(level + "BondsKO.png");
 			this->bondsFore = LoadTexture(level + "BondsForeKO.png");
 
@@ -269,13 +282,16 @@ namespace Platformer
 	void Customizer::LoadContent(int argc, char* argv[])
 	{
 
-		if (argc >= 3)
+		if (argc >= 4)
 		{
 
-			this->core.Load(argv[0], argv[1]);
+			this->core.Load(argv[0], argv[1], "./Assets/Images/Pieces/Tropic");
 
 			this->playerSheet.LoadSpritesheet(argv[2]);
 			this->playerSheet.SetSurface(this->core.playerOutput);
+
+			this->koSheet.LoadSpritesheet(argv[3]);
+			this->koSheet.SetSurface(this->core.koOutput);
 
 			this->MenuFactory("./Assets/Data/Menu/Customizer.plMNU", Settings::AccessSettings()->MusicVolume());
 
@@ -329,7 +345,31 @@ namespace Platformer
 		if (GetTime() - this->lastSwitch > ANIMATION_DURATION)
 		{
 
-			this->playerSheet.PlayAnimation((this->playerSheet.CurrentAnimation() + 1) % ANIMATION_MAX, true);
+			if (SaveData::AccessSaveData()->CollectedDamsels())
+			{
+
+				if (this->currentSheet->CurrentAnimation() + 1 >= this->currentSheet->NumAnimations())
+				{
+
+					this->currentSheet = (this->currentSheet == &this->playerSheet ? &this->koSheet : &this->playerSheet);
+					this->currentSheet->PlayAnimation(0, true);
+
+				}
+				else
+				{
+
+					this->currentSheet->PlayAnimation((this->currentSheet->CurrentAnimation() + 1) % this->currentSheet->NumAnimations(), true);
+
+				}
+
+			}
+			else
+			{
+
+				this->playerSheet.PlayAnimation((this->playerSheet.CurrentAnimation() + 1) % ANIMATION_MAX, true);
+
+			}
+
 			this->lastSwitch = GetTime();
 
 		}
@@ -408,7 +448,7 @@ namespace Platformer
 
 		}
 
-		this->playerSheet.Update(deltaTime);
+		this->currentSheet->Update(deltaTime);
 
 		this->core.PreparePlayer();
 
@@ -436,6 +476,7 @@ namespace Platformer
 
 				UI::AccessUI()->PlayConfirmEffect();
 
+				this->core.PreparePlayer(false);
 				this->core.OutputPlayer(OUTPUT_PLAYER_FILE, OUTPUT_PLAYERKO_FILE);
 
 				this->SetRunning(false);
@@ -460,7 +501,7 @@ namespace Platformer
 
 	}
 
-	void CustomizerCore::PreparePlayer()
+	void CustomizerCore::PreparePlayer(bool render)
 	{
 
 		SDL_Rect rect;
@@ -494,6 +535,13 @@ namespace Platformer
 
 		}
 
+		if (this->playerBonds && render)
+		{
+
+			SDL_RenderCopyEx(renderer, this->playerBonds, &rect, &rect, 0, NULL, SDL_FLIP_NONE);
+
+		}
+
 		SDL_SetRenderTarget(renderer, NULL);
 
 		rect.x = 0;
@@ -505,7 +553,7 @@ namespace Platformer
 		SDL_SetTextureBlendMode(this->koOutput, SDL_BLENDMODE_BLEND);
 		ClearBuffer(col);
 
-		if (this->bonds)
+		if (this->bonds && render)
 		{
 
 			SDL_RenderCopyEx(renderer, this->bonds, &rect, &rect, 0, NULL, SDL_FLIP_NONE);
@@ -530,7 +578,7 @@ namespace Platformer
 
 		}
 
-		if (this->bondsFore)
+		if (this->bondsFore && render)
 		{
 
 			SDL_RenderCopyEx(renderer, this->bondsFore, &rect, &rect, 0, NULL, SDL_FLIP_NONE);
@@ -600,7 +648,7 @@ namespace Platformer
 
 		SDL_RenderCopy(renderer, this->core.frame, NULL, &rect);
 
-		this->playerSheet.Render(Vector2(PLATFORMER_TARGET_WIDTH / 8, PLATFORMER_TARGET_HEIGHT / 8), false);
+		this->currentSheet->Render(Vector2(PLATFORMER_TARGET_WIDTH / 8, PLATFORMER_TARGET_HEIGHT / 8), false);
 		
 		if (!this->core.Unlocked())
 		{

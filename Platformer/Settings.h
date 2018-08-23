@@ -20,6 +20,7 @@
 #define MUSIC_CODE "music volume"
 #define DEBUG_CODE "debug"
 #define KEY_CODE "key"
+#define HARD_CODE "hard"
 
 #define UP_CODE 0
 #define DOWN_CODE 1
@@ -78,6 +79,8 @@ namespace Platformer
 		int SoundVolume();
 		int MusicVolume();
 
+		std::string InputText(int index);
+
 		int ReputationByType(std::string t);
 		bool RemoveByType(std::string t);
 
@@ -85,6 +88,9 @@ namespace Platformer
 
 		void ChangeWindowSize(int w, int h);
 		void ChangeFullscreen(bool f);
+
+		bool HardMode();
+		void SetHardMode(bool h);
 
 	protected:
 
@@ -107,6 +113,8 @@ namespace Platformer
 
 		int soundVolume;
 		int musicVolume;
+
+		bool hardMode = false;
 
 	};
 

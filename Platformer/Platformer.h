@@ -24,6 +24,8 @@ using namespace Engine2D;
 namespace Platformer
 {
 
+	struct PauseText;
+
 	class Platformer : public GameState
 	{
 
@@ -62,6 +64,7 @@ namespace Platformer
 		void TriggerDoor(std::string level, int spawnIndex);
 		void TriggerExit();
 		void TriggerGameOver();
+		void TriggerPauseText(PauseText* t);
 
 	protected:
 
@@ -99,6 +102,8 @@ namespace Platformer
 		bool pauseKeyUp = false;
 
 		int framesInWall;
+
+		PauseText* pauseText;
 
 	};
 	

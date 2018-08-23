@@ -11,7 +11,14 @@ FactoryGround.plLFG
 FactoryEvent.plEVT
 FactoryTile.plTLM
 ./Assets/Sounds/Music/FactoryLevel.wav
-6
+7
+E-Betty-0
+1141 370
+1
+E-F-0-BA1
+1
+GC
+1
 E-Emplacement-0
 592 864
 1
@@ -34,7 +41,7 @@ E-C-1-BA1
 GC
 1
 E-Chaser-2
-416 480
+448 480
 1
 E-C-1-BA1
 1

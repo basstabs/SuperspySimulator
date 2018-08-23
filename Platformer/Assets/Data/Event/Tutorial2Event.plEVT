@@ -1,0 +1,181 @@
+11
+N-Damsel-0
+item
+Damsel
+1418 330 54 54
+./Assets/Data/Spritesheet/Damsel.plSPS
+./Assets/Images/Damsels/Damsel0.png
+./Assets/Images/DamselThumbnail.png
+1
+N-Dossier-0
+item
+Dossier
+1120 864 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/Dossier.png
+./Assets/Images/DossierThumbnail.png
+1
+N-CorpseRun
+item
+CorpseRun
+420 554 54 54
+./Assets/Data/Spritesheet/Damsel.plSPS
+./Assets/Images/Damsels/Damsel
+
+1
+N-Elevator-2
+trigger
+96 416 160 64
+platform
+0
+input
+2
+0 7
+N-Elevator-3
+trigger
+96 128 160 64
+platform
+0
+input
+2
+0 7
+N-SurrenderTutorial
+trigger
+512 768 96 192
+tutorial
+10
+24 16
+Sometimes you'll find the only way forward is to allow yourself to
+24 34
+be captured, and then escape once you've been taken deeper
+24 52
+into enemy territory. 
+24 114
+You can give yourself up and it won't reflect on the poorly agency,
+24 132
+however if you get knocked out your supervisors won't be happy about
+24 150
+it. It will hurt our reputation.
+320 208
+=
+340 208
+-4
+250 312
+Press
+350 312
+to continue...
+2
+272 200 4
+304 305 5
+single
+N-DossierTutorial
+trigger
+960 768 96 192
+tutorial
+9
+24 16
+Collect any information dossiers you see on your missions and bring 
+24 34
+them back to base. Enemy intel will help us secure more funding
+24 52
+for the agency. If we manage to secure enough information, we may
+24 70
+even be able to acquire something to spruce up the base.
+24 150
+Be careful, though. If you get caught then your captors will surely 
+24 168
+take any stolen information off of you. So make sure you don't.
+24 186
+get caught.
+250 312
+Press
+350 312
+to continue...
+1
+304 305 5
+single
+N-DamselTutorial
+trigger
+1216 256 192 96
+tutorial
+6
+24 16
+Your primary objective is to rescue the young women captured by the
+24 34
+enemy. Each one successfully rescued will help us leverage a significant
+24 52
+amount of resources from our backers for the  agency.
+24 150
+If you manage to save them all, there's a bonus in it for you, [NAME].
+250 312
+Press
+350 312
+to continue...
+1
+304 305 5
+single
+N-CaptureTutorial
+trigger
+896 256 64 256
+tutorial
+9
+24 16
+Keep your eyes sharp. Some enemies will attempt to restrain you
+24 34
+rather than hurt you. If they succeed, you'll only be able
+24 52
+to hop around helplessly while you try to survive long 
+24 70
+enough to struggle free.
+24 150
+I'd prefer not to have to relive the embarrassment of watching
+24 168
+an agent I trained flail about on security camera footage,
+24 186
+so make sure they don't get the drop on you.
+250 312
+Press
+350 312
+to continue...
+1
+304 305 5
+single
+N-FinishTutorial
+trigger
+1312 32 96 96
+tutorial
+12
+24 16
+As the agency acquires more resources, the, you'll be able to
+24 34
+take advantage of the dressing rooms and training facilities
+24 52
+to keep yourself in tip-top shape. You'll train your strength
+24 70
+so you can survive more blows, train your mind to ignore
+24 88
+the pain and withstand attacks for longer after each hit,
+24 106
+and hone your escape skills so no one can hold you down.
+24 168
+I'm afraid that's all I have to teach you. Don't hesitate to
+24 186
+come back in for more training if you need it, I'd rather
+24 204
+have you stumbling through my course again rather than having
+24 222
+to go rescue you.
+250 312
+Press
+350 312
+to continue...
+1
+304 305 5
+single
+N-Exit-0
+trigger
+1408 64 64 64
+exit
+input
+1
+0

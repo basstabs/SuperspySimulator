@@ -1,0 +1,734 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AABB.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Attack.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Bestiary.cpp">
+      <Filter>Source\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterSelect.cpp">
+      <Filter>Source\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMap.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Customizer.cpp">
+      <Filter>Source\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMapper.cpp">
+      <Filter>Source\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Items.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelSelect.cpp">
+      <Filter>Source\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingPlatform.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Platformer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultsScreen.cpp">
+      <Filter>Source\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveData.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptedAction.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsMenu.cpp">
+      <Filter>Source\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Spawner.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Spritesheet.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="StatsMenu.cpp">
+      <Filter>Source\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="AABB.h">
+      <Filter>Headers\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Attack.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Bestiary.h">
+      <Filter>Headers\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSelect.h">
+      <Filter>Headers\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMap.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Customizer.h">
+      <Filter>Headers\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Headers\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Headers\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Headers\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMapper.h">
+      <Filter>Headers\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Items.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelSelect.h">
+      <Filter>Headers\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Headers\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingPlatform.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Platformer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultsScreen.h">
+      <Filter>Headers\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveData.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptedAction.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsMenu.h">
+      <Filter>Headers\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Spawner.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Spritesheet.h">
+      <Filter>Headers\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsMenu.h">
+      <Filter>Headers\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Headers\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Platformer.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Images\Avatar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Data\Spritesheet\Alien.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\AlienBoss.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Bandage.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Saves\Bestiary.plBST">
+      <Filter>Saves</Filter>
+    </None>
+    <None Include="Assets\Data\Menu\Bestiary.plMNU">
+      <Filter>Assets\Menus</Filter>
+    </None>
+    <None Include="Assets\Data\Collision\BossCollision.plCOL">
+      <Filter>Assets\Collision</Filter>
+    </None>
+    <None Include="Assets\Data\Event\BossEvent.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Render\BossGround.plLFG">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Level\BossLevel.plLVL">
+      <Filter>Assets\Levels</Filter>
+    </None>
+    <None Include="Assets\Data\Master\BossMaster.plMST">
+      <Filter>Assets\Master</Filter>
+    </None>
+    <None Include="Assets\Data\Render\BossTile.plTLM">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Bullet.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Cat.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Menu\CharacterSelect.plMNU">
+      <Filter>Assets\Menus</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\ConveyorLeft.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\ConveyorRight.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Saves\Customization.plCTM">
+      <Filter>Saves</Filter>
+    </None>
+    <None Include="Assets\Data\Menu\Customizer.plMNU">
+      <Filter>Assets\Menus</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Damsel.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Empty32.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Empty48.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Collision\Factory2Collision.plCOL">
+      <Filter>Assets\Collision</Filter>
+    </None>
+    <None Include="Assets\Data\Event\Factory2Event.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Factory2Ground.plLFG">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Level\Factory2Level.plLVL">
+      <Filter>Assets\Levels</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Factory2Tile.plTLM">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Collision\Factory3Collision.plCOL">
+      <Filter>Assets\Collision</Filter>
+    </None>
+    <None Include="Assets\Data\Event\Factory3Event.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Factory3Ground.plLFG">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Level\Factory3Level.plLVL">
+      <Filter>Assets\Levels</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Factory3Tile.plTLM">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Collision\Factory4Collision.plCOL">
+      <Filter>Assets\Collision</Filter>
+    </None>
+    <None Include="Assets\Data\Event\Factory4Event.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Factory4Ground.plLFG">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Level\Factory4Level.plLVL">
+      <Filter>Assets\Levels</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Factory4Tile.plTLM">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Collision\Factory5Collision.plCOL">
+      <Filter>Assets\Collision</Filter>
+    </None>
+    <None Include="Assets\Data\Event\Factory5Event.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Factory5Ground.plLFG">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Level\Factory5Level.plLVL">
+      <Filter>Assets\Levels</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Factory5Tile.plTLM">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Collision\FactoryBossCollision.plCOL">
+      <Filter>Assets\Collision</Filter>
+    </None>
+    <None Include="Assets\Data\Event\FactoryBossEvent.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Render\FactoryBossGround.plLFG">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Level\FactoryBossLevel.plLVL">
+      <Filter>Assets\Levels</Filter>
+    </None>
+    <None Include="Assets\Data\Master\FactoryBossMaster.plMST">
+      <Filter>Assets\Master</Filter>
+    </None>
+    <None Include="Assets\Data\Render\FactoryBossTile.plTLM">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\FactoryBot.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Collision\FactoryCollision.plCOL">
+      <Filter>Assets\Collision</Filter>
+    </None>
+    <None Include="Assets\Data\Event\FactoryEvent.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Render\FactoryGround.plLFG">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Level\FactoryLevel.plLVL">
+      <Filter>Assets\Levels</Filter>
+    </None>
+    <None Include="Assets\Data\Master\FactoryMaster.plMST">
+      <Filter>Assets\Master</Filter>
+    </None>
+    <None Include="Assets\Data\Render\FactoryTile.plTLM">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Fireball.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Menu\GameOver.plSPL">
+      <Filter>Assets\Menus</Filter>
+    </None>
+    <None Include="Saves\Genny.plSAV">
+      <Filter>Saves</Filter>
+    </None>
+    <None Include="Assets\Data\Master\Handcannon.plWPN">
+      <Filter>Assets\Master</Filter>
+    </None>
+    <None Include="Assets\Data\Menu\InputMapper.plMNU">
+      <Filter>Assets\Menus</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Item.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\LatexBlob.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\LatexDrop.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Saves\Levels.plLVS">
+      <Filter>Saves</Filter>
+    </None>
+    <None Include="Assets\Data\Menu\LevelSelect.plMNU">
+      <Filter>Assets\Menus</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Magicball.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Master\Magnum.plWPN">
+      <Filter>Assets\Master</Filter>
+    </None>
+    <None Include="Assets\Data\Menu\Main.plMNU">
+      <Filter>Assets\Menus</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\MarchionessHover.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Mover.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Collision\Mummy2Collision.plCOL">
+      <Filter>Assets\Collision</Filter>
+    </None>
+    <None Include="Assets\Data\Event\Mummy2Event.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Mummy2Ground.plLFG">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Level\Mummy2Level.plLVL">
+      <Filter>Assets\Levels</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Mummy2Tile.plTLM">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Collision\Mummy3Collision.plCOL">
+      <Filter>Assets\Collision</Filter>
+    </None>
+    <None Include="Assets\Data\Event\Mummy3Event.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Mummy3Ground.plLFG">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Level\Mummy3Level.plLVL">
+      <Filter>Assets\Levels</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Mummy3Tile.plTLM">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Collision\MummyBossCollision.plCOL">
+      <Filter>Assets\Collision</Filter>
+    </None>
+    <None Include="Assets\Data\Event\MummyBossEvent.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Render\MummyBossGround.plLFG">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Level\MummyBossLevel.plLVL">
+      <Filter>Assets\Levels</Filter>
+    </None>
+    <None Include="Assets\Data\Master\MummyBossMaster.plMST">
+      <Filter>Assets\Master</Filter>
+    </None>
+    <None Include="Assets\Data\Render\MummyBossTile.plTLM">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Collision\MummyCollision.plCOL">
+      <Filter>Assets\Collision</Filter>
+    </None>
+    <None Include="Assets\Data\Event\MummyEvent.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Render\MummyGround.plLFG">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Level\MummyLevel.plLVL">
+      <Filter>Assets\Levels</Filter>
+    </None>
+    <None Include="Assets\Data\Master\MummyMaster.plMST">
+      <Filter>Assets\Master</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\MummyRun.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\MummyShoot.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\MummySpikes.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Render\MummyTile.plTLM">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Obelisk.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Pharaoh.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Master\Phaser.plWPN">
+      <Filter>Assets\Master</Filter>
+    </None>
+    <None Include="Assets\Data\Master\Player.plETY">
+      <Filter>Assets\Master</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\PlayerKO.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Saves\Progress.plPRG">
+      <Filter>Saves</Filter>
+    </None>
+    <None Include="Assets\Data\Menu\Results.plMNU">
+      <Filter>Assets\Menus</Filter>
+    </None>
+    <None Include="Assets\Data\Menu\Settings.plMNU">
+      <Filter>Assets\Menus</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Snuggler.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Soldier.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\SpawnTunnel.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Sphinx.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Sprinkler.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Menu\Stats.plMNU">
+      <Filter>Assets\Menus</Filter>
+    </None>
+    <None Include="Assets\Data\Collision\Test2Collision.plCOL">
+      <Filter>Assets\Collision</Filter>
+    </None>
+    <None Include="Assets\Data\Event\Test2Event.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Test2Ground.plLFG">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Level\Test2Level.plLVL">
+      <Filter>Assets\Levels</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Test2Tiles.plTLM">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Collision\Test3Collision.plCOL">
+      <Filter>Assets\Collision</Filter>
+    </None>
+    <None Include="Assets\Data\Event\Test3Event.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Test3Ground.plLFG">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Level\Test3Level.plLVL">
+      <Filter>Assets\Levels</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Test3Tile.plTLM">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Collision\Test4Collision.plCOL">
+      <Filter>Assets\Collision</Filter>
+    </None>
+    <None Include="Assets\Data\Event\Test4Event.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Test4Ground.plLFG">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Level\Test4Level.plLVL">
+      <Filter>Assets\Levels</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Test4Tile.plTLM">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Event\TestEvent.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Level\TestLevel.plLVL">
+      <Filter>Assets\Levels</Filter>
+    </None>
+    <None Include="Assets\Data\Master\TestMaster.plMST">
+      <Filter>Assets\Master</Filter>
+    </None>
+    <None Include="Assets\Data\Render\TestTiles.plTLM">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Torch.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Turret.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Master\Uzi.plWPN">
+      <Filter>Assets\Master</Filter>
+    </None>
+    <None Include="Assets\Data\Master\Wall1.plETY">
+      <Filter>Assets\Master</Filter>
+    </None>
+    <None Include="Assets\Data\Master\Wall2.plETY">
+      <Filter>Assets\Master</Filter>
+    </None>
+    <None Include="Assets\Data\Master\Wall3.plETY">
+      <Filter>Assets\Master</Filter>
+    </None>
+    <None Include="Assets\Data\Level\TutorialLevel.plLVL">
+      <Filter>Assets\Levels</Filter>
+    </None>
+    <None Include="Assets\Data\Event\TutorialEvent.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Collision\TutorialCollision.plCOL">
+      <Filter>Assets\Collision</Filter>
+    </None>
+    <None Include="Assets\Data\Master\TutorialMaster.plMST">
+      <Filter>Assets\Master</Filter>
+    </None>
+    <None Include="Assets\Data\Render\TutorialGround.plLFG">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Render\TutorialTile.plTLM">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Target.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Tutorial2Ground.plLFG">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Tutorial2Tile.plTLM">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Level\Tutorial2Level.plLVL">
+      <Filter>Assets\Levels</Filter>
+    </None>
+    <None Include="Assets\Data\Event\Tutorial2Event.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Collision\Tutorial2Collision.plCOL">
+      <Filter>Assets\Collision</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Betty.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Autotaper.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Robot.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\Data\Spritesheet\Beam.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </Text>
+    <Text Include="Assets\Data\Spritesheet\EmplacementDown.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </Text>
+    <Text Include="Assets\Data\Spritesheet\EmplacementRight.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </Text>
+    <Text Include="Assets\Data\Spritesheet\Empty.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </Text>
+    <Text Include="Assets\Data\Spritesheet\Fan.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </Text>
+    <Text Include="Saves\LastSave.txt">
+      <Filter>Saves</Filter>
+    </Text>
+    <Text Include="Assets\Data\Spritesheet\Player.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </Text>
+    <Text Include="Saves\Preferences.ini">
+      <Filter>Saves</Filter>
+    </Text>
+    <Text Include="Assets\Data\Collision\TestCollision.plCOL">
+      <Filter>Assets\Collision</Filter>
+    </Text>
+    <Text Include="Assets\Data\Render\TestGround.plLFG">
+      <Filter>Assets\Render</Filter>
+    </Text>
+    <Text Include="Saves\UISettings.plUI">
+      <Filter>Saves</Filter>
+    </Text>
+    <Text Include="Assets\Data\Master\Vent.plETY">
+      <Filter>Assets\Master</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{fd2c838a-930c-4d5d-a5e3-fefcfdedd51a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{236fcd8b-92b8-4811-be13-3af84a5b7283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine">
+      <UniqueIdentifier>{9cb988ee-d776-450f-ba13-d0dbf66b2275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Engine">
+      <UniqueIdentifier>{30fd64ba-8371-42f5-8cc5-72463b76a352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{e97ce62d-6f3a-423e-aac0-bf990b78836c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Spritesheets">
+      <UniqueIdentifier>{ae4f9535-554e-461a-924b-306960eeef03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Levels">
+      <UniqueIdentifier>{94a1596e-2e9f-4efd-84f1-fc70b74676b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Events">
+      <UniqueIdentifier>{0b9d839e-26d5-47cb-988c-65b8dc945c10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Collision">
+      <UniqueIdentifier>{fe16bc2e-5f52-416e-a63b-33be5186cd93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Master">
+      <UniqueIdentifier>{0149cb5d-6b4c-45fe-8b6b-6f2a472e52ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Render">
+      <UniqueIdentifier>{4dca2c43-f380-484b-b2db-7d0b7d57f7d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Menus">
+      <UniqueIdentifier>{ca7418e9-517f-41a8-8e47-9130899705b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Menus">
+      <UniqueIdentifier>{4dd9911d-a387-4563-bdbb-bd1b96ecd9c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Menus">
+      <UniqueIdentifier>{b1311566-1912-43ae-bb6f-fe6f9c357a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Saves">
+      <UniqueIdentifier>{b8c67b81-a7d9-4e9d-9ab1-705e8ae8462f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

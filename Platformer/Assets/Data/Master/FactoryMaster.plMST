@@ -1,4 +1,4 @@
-7
+8
 E-Emp-1-Down-BA1
 0 0 14 22
 2 1 500
@@ -123,4 +123,64 @@ Melee
 16 6
 -8 16 8 16
 
+50
+E-F-0-BA1
+0 0 20 14
+1 -1 1000
+./Assets/Data/Spritesheet/Betty.plSPS
+./Assets/Images/BettyFactory.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-2 -0 -22 0
+3
+Ambush
+0 1
+8
+-100
+-128
+200
+120
+0
+-112
+256
+1
+Shoot
+1 0
+0
+SelfDestruct
+2 0
+0
+1
+scripted 3 Ambush 0 , Shoot 2 0 1 , SelfDestruct 0 ,
+-1 -1
+0
+./Assets/Sounds/Effects/Confirm.wav
+1
+Multishot
+7 10 -15 10 1
+5
+1 -1 0 0 8 8
+425 -25
+./Assets/Data/Spritesheet/LatexBlob.plSPS
+./Assets/Images/Blob.png
+1 -1 0 0 8 8
+250 -200
+./Assets/Data/Spritesheet/LatexBlob.plSPS
+./Assets/Images/Blob.png
+1 -1 0 0 8 8
+0 -450
+./Assets/Data/Spritesheet/LatexDrop.plSPS
+./Assets/Images/LatexDrop.png
+1 -1 0 0 8 8
+-250 -200
+./Assets/Data/Spritesheet/LatexBlob.plSPS
+./Assets/Images/Blob.png
+1 -1 0 0 8 8
+-425 -25
+./Assets/Data/Spritesheet/LatexBlob.plSPS
+./Assets/Images/Blob.png
+./Assets/Sounds/Effects/Bubble.wav
+0 0 20 14
+0 0
 50

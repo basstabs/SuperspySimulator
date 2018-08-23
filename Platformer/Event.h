@@ -18,6 +18,15 @@ using namespace Engine2D;
 namespace Platformer
 {
 
+	struct PauseText
+	{
+
+		std::vector<std::pair<Vector2, std::string>> text;
+		std::vector<std::pair<Vector2, int>> inputs;
+
+	};
+
+
 	class TriggerCondition
 	{
 
@@ -304,6 +313,30 @@ namespace Platformer
 	protected:
 
 		Mix_Chunk* effect;
+
+	};
+
+	class TutorialTrigger : public Trigger
+	{
+
+	//Methods
+
+	public:
+
+		TutorialTrigger(PauseText t, float x, float y, float w, float h);
+		~TutorialTrigger();
+
+		void Update(Player* player, float deltaTime);
+
+	protected:
+
+	//Data
+
+	public:
+
+	protected:
+
+		PauseText tutorial;
 
 	};
 

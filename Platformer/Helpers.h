@@ -14,6 +14,8 @@
 #define PLATFORMER_TARGET_WIDTH 640
 #define PLATFORMER_TARGET_HEIGHT 360
 
+#define BUFFER 50
+
 extern const Uint8* currentKeyStates;
 extern const Uint8* previousKeyStates;
 

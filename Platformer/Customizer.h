@@ -12,7 +12,7 @@
 
 using namespace Engine2D;
 
-#define ANIMATION_DURATION 1500
+#define ANIMATION_DURATION 3000
 #define ANIMATION_MAX 8
 
 #define OUTPUT_PLAYER_FILE "./Assets/Images/HeroineBase.png"
@@ -59,6 +59,7 @@ namespace Platformer
 		SDL_Texture* frame;
 		SDL_Texture* lock;
 
+		SDL_Texture* playerBonds = NULL;
 		SDL_Texture* bonds = NULL;
 		SDL_Texture* bondsFore = NULL;
 
@@ -74,7 +75,7 @@ namespace Platformer
 
 		void Load(std::string base, std::string options, std::string level = "");
 
-		void PreparePlayer();
+		void PreparePlayer(bool render = true);
 		void OutputPlayer(std::string output, std::string koOutput);
 
 		bool Unlocked();
@@ -113,6 +114,9 @@ namespace Platformer
 	protected:
 
 		Spritesheet playerSheet;
+		Spritesheet koSheet;
+
+		Spritesheet* currentSheet;
 
 		CustomizerCore core;
 

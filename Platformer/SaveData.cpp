@@ -746,4 +746,105 @@ namespace Platformer
 
 	}
 
+	bool SaveData::CollectedDamsels()
+	{
+
+		std::ifstream file("./Saves/Levels.plLVS");
+
+		std::string line;
+		std::getline(file, line);
+		std::istringstream input(line);
+
+		int numLevels;
+		input >> numLevels;
+
+		for (int i = 0; i < numLevels; i++)
+		{
+
+			int numDamsels;
+			std::string name;
+
+			std::getline(file, line);
+			input.clear();
+			input.str(line);
+
+			input >> numDamsels;
+
+			//Read through unnecessary data
+			std::getline(file, line);
+			
+			std::getline(file, name);
+			
+			if (this->DamselData(name) < numDamsels)
+			{
+
+				file.close();
+				return false;
+
+			}
+
+			//Read through unnecessary data
+			std::getline(file, line);
+			std::getline(file, line);
+			std::getline(file, line);
+		
+		}
+
+		file.close();
+
+		return true;
+
+	}
+
+	bool SaveData::Completed()
+	{
+
+		std::ifstream file("./Saves/Levels.plLVS");
+
+		std::string line;
+		std::getline(file, line);
+		std::istringstream input(line);
+
+		int numLevels;
+		input >> numLevels;
+
+		for (int i = 0; i < numLevels; i++)
+		{
+
+			int numDamsels, numDossiers;
+			std::string name;
+
+			std::getline(file, line);
+			input.clear();
+			input.str(line);
+
+			input >> numDamsels;
+			input >> numDossiers;
+
+			//Read through unnecessary data
+			std::getline(file, line);
+
+			std::getline(file, name);
+
+			if (this->DamselData(name) < numDamsels || this->DossierData(name) < numDossiers)
+			{
+
+				file.close();
+				return false;
+
+			}
+
+			//Read through unnecessary data
+			std::getline(file, line);
+			std::getline(file, line);
+			std::getline(file, line);
+
+		}
+
+		file.close();
+
+		return true;
+
+	}
+
 }

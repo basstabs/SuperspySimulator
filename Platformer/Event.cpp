@@ -338,6 +338,89 @@ namespace Platformer
 			newTrigger = new PlatformTrigger(level->Collision(), index, x, y, w, h);
 
 		}
+		else if (type == "tutorial")
+		{
+
+			PauseText tutorial;
+
+			int num;
+			std::string line;
+
+			std::getline(file, line);
+			input.clear();
+			input.str(line);
+
+			input >> num;
+
+			for (int i = 0; i < num; i++)
+			{
+
+				std::getline(file, line);
+
+				float x, y;
+				input.clear();
+				input.str(line);
+
+				input >> x;
+				input >> y;
+
+				std::getline(file, line);
+
+				if (line[0] == '-')
+				{
+
+					int index = line[1] - '0';
+					line = Settings::AccessSettings()->InputText(index);
+
+				}
+
+				size_t pos;
+				do
+				{
+
+					pos = line.find("[NAME]");
+
+					if (pos != std::string::npos)
+					{
+
+						line = line.substr(0, pos) + SaveData::AccessSaveData()->Name() + line.substr(pos + 6);
+
+					}
+
+				} 
+				while (pos != std::string::npos);
+
+				tutorial.text.push_back(std::pair<Vector2, std::string>(Vector2(x, y), line));
+
+			}
+
+			std::getline(file, line);
+			input.clear();
+			input.str(line);
+
+			input >> num;
+
+			for (int i = 0; i < num; i++)
+			{
+
+				std::getline(file, line);
+
+				float x, y;
+				int index;
+				input.clear();
+				input.str(line);
+
+				input >> x;
+				input >> y;
+				input >> index;
+
+				tutorial.inputs.push_back(std::pair<Vector2, int>(Vector2(x, y), index));
+
+			}
+
+			newTrigger = new TutorialTrigger(tutorial, x, y, w, h);
+
+		}
 		else if (type == "door")
 		{
 
@@ -513,6 +596,32 @@ namespace Platformer
 
 	}
 
+	TutorialTrigger::TutorialTrigger(PauseText t, float x, float y, float w, float h) : Trigger(x, y, w, h)
+	{
+
+		this->tutorial = t;
+
+	}
+
+	TutorialTrigger::~TutorialTrigger()
+	{
+
+	}
+
+	void TutorialTrigger::Update(Player* player, float deltaTime)
+	{
+
+		this->Trigger::Update(player, deltaTime);
+
+		if (this->Intersects(player) && !engine.Paused() && this->condition->Condition(player))
+		{
+
+			player->GetLevel()->GetPlatformer()->TriggerPauseText(&this->tutorial);
+
+		}
+
+	}
+
 	TriggerTrigger::TriggerTrigger(Trigger* t, std::string n, Level* lvl, bool f, int i, int l, float x, float y, float w, float h) : Trigger(x, y, w, h)
 	{
 
@@ -557,8 +666,6 @@ namespace Platformer
 				UI::AccessUI()->PlayItemEffect();
 
 				this->trigger = NULL;
-
-				this->level->Block(this->name);
 
 			}
 

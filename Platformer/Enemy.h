@@ -318,6 +318,8 @@ namespace Platformer
 		static void FSMGoto(FSM* fsm, std::vector<GameEntity*>& entities, std::vector<Attack*>& attacks, float deltaTime);
 		static void FSMIdle(FSM* fsm, std::vector<GameEntity*>& entities, std::vector<Attack*>& attacks, float deltaTime);
 		static void FSMHurt(FSM* fsm, std::vector<GameEntity*>& entities, std::vector<Attack*>& attacks, float deltaTime);
+		static void FSMAmbush(FSM* fsm, std::vector<GameEntity*>& entities, std::vector<Attack*>& attacks, float deltaTime);
+		static void FSMSelfDestruct(FSM* fsm, std::vector<GameEntity*>& entities, std::vector<Attack*>& attacks, float deltaTime);
 
 	//Data
 

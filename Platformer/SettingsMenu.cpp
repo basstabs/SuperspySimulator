@@ -102,6 +102,24 @@ namespace Platformer
 
 		}
 
+		if (this->inputs["Normal"]->Value())
+		{
+
+			UI::AccessUI()->PlayConfirmEffect();
+
+			Settings::AccessSettings()->SetHardMode(false);
+
+		}
+
+		if (this->inputs["Hard"]->Value())
+		{
+
+			UI::AccessUI()->PlayConfirmEffect();
+
+			Settings::AccessSettings()->SetHardMode(true);
+
+		}
+
 		if (this->inputs["Back"]->Value())
 		{
 
@@ -117,6 +135,40 @@ namespace Platformer
 	{
 
 		this->MenuState::Render(deltaTime);
+
+
+		SDL_Color color;
+		std::string text;
+		if (Settings::AccessSettings()->HardMode())
+		{
+
+			color.g = color.b = 25;
+			color.r = color.a = 255;
+
+			text = "Hard";
+
+		}
+		else
+		{
+
+			color.r = color.b = 25;
+			color.g = color.a = 255;
+
+			text = "Normal";
+
+		}
+
+
+		SDL_Texture* textSurface = CreateFontTexture(this->font, color, text);
+
+		SDL_Rect rect;
+		rect.x = this->inputs[text]->X();
+		rect.y = this->inputs[text]->Y();
+		SDL_QueryTexture(textSurface, NULL, NULL, &rect.w, &rect.h);
+
+		SDL_RenderCopy(renderer, textSurface, NULL, &rect);
+
+		SDL_DestroyTexture(textSurface);
 
 		UI::AccessUI()->RenderReputation();
 

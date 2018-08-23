@@ -1,0 +1,59 @@
+4096 360 -1 0
+2
+91 270
+2331 78
+TutorialCollision.plCOL
+TutorialMaster.plMST
+TutorialGround.plLFG
+TutorialEvent.plEVT
+TutorialTile.plTLM
+./Assets/Sounds/Music/TutorialLevel.wav
+6
+E-Robot-0
+3456 174
+1
+E-M-1-BA1
+1
+GC
+1
+E-Robot-1
+2976 270
+1
+E-M-1-BA1
+1
+GC
+1
+E-Target-0
+832 272
+1
+E-Emp-1
+1
+GC
+1
+E-Target-1
+1568 48
+1
+E-Emp-1
+1
+GC
+1
+E-Target-1
+1568 144
+1
+E-Emp-1
+1
+GC
+1
+E-Target-1
+1728 272
+1
+E-Emp-1
+1
+GC
+1
+TutorialInfo
+0 0 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/Info.png
+./Assets/Images/Thumbnail.png
+0

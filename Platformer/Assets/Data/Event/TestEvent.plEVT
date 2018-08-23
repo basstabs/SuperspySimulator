@@ -1,4 +1,4 @@
-15
+14
 N-Dossier-0
 item
 Dossier
@@ -69,13 +69,6 @@ breakable
 B-Vent-2
 ./Assets/Data/Master/Vent.plETY
 800 1856 1
-DropDown
-trigger
-1216 32 128 128
-empty
-input
-2
-1 6
 N-Elevator-1
 trigger
 1536 512 192 128

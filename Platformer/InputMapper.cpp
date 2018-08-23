@@ -88,7 +88,7 @@ namespace Platformer
 			{
 
 				Vector2 center = this->inputs[inputButtons[i]]->Center();
-				std::string name = SDL_GetScancodeName(controls->keys[i]);
+				std::string name = Settings::AccessSettings()->InputText(i);
 
 				SDL_Texture* textSurface = CreateFontTexture(this->font, this->keyColor, name);
 

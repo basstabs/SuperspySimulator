@@ -280,7 +280,7 @@ namespace Engine2D
 	void PumpSounds(Vector2 world)
 	{
 
-		AABB viewport(world.X(), world.Y(), PLATFORMER_TARGET_WIDTH, PLATFORMER_TARGET_HEIGHT);
+		AABB viewport(world.X() - BUFFER, world.Y() - BUFFER, PLATFORMER_TARGET_WIDTH + (2 * BUFFER), PLATFORMER_TARGET_HEIGHT + (2 * BUFFER));
 
 		for (int i = 0; i < soundQueue.size(); i++)
 		{

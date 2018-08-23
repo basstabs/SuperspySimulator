@@ -1,0 +1,198 @@
+11
+N-DropDown
+trigger
+672 96 128 96
+empty
+input
+2
+1 6
+N-Block-0
+trigger
+672 256 224 64
+platform
+0
+and
+single
+defeat
+E-Target-0
+N-Elevator-0
+trigger
+960 256 160 64
+platform
+2
+input
+2
+0 7
+N-Elevator-1
+trigger
+992 32 160 64
+platform
+2
+input
+2
+0 7
+N-Block-1
+trigger
+1120 32 672 288
+platform
+1
+and
+single
+defeat
+E-Target-1
+N-Door-0
+trigger
+3968 64 64 64
+door
+./Assets/Data/Level/Tutorial2Level.plLVL
+0
+input
+1
+0
+N-PauseTutorial
+trigger
+64 256 64 64
+tutorial
+9
+24 16
+Welcome to basic training, [NAME]. I'm Sergeant Denna Lancaster.
+24 78
+It's my job to make sure you don't embarrass the agency.
+24 96
+Not that I have much control over that.
+24 170
+Make sure you know how to pause and analyze your situation, I won't
+24 188
+continue until you familiarize yourself with the concept of patience.
+320 248
+=
+340 248
+-5
+250 312
+Press
+350 312
+to continue...
+2
+272 240 5
+304 305 5
+single
+N-MoveTutorial
+trigger
+64 256 64 64
+tutorial
+12
+24 16
+Good. Rushing into things without thinking is a good way to get
+24 34
+captured. We have enough ditzy spies who run headfirst into
+24 52
+traps. We don't need another.
+24 78
+Why don't you move around a bit, get warmed up? I wouldn't want you
+24 96
+pulling a muscle before I've whipped you into proper shape.
+171 124
+-0
+171 278
+-1
+96 202
+-3
+245 202
+-2
+427 172
+-6
+250 312
+Press
+350 312
+to continue...
+6
+160 145 0
+160 241 1
+112 193 3
+208 193 2
+416 193 6
+304 305 5
+single
+N-ShootTutorial
+trigger
+672 288 128 32
+tutorial
+10
+24 16
+Why don't you try firing your weapon? You'll need to become acquainted
+24 34
+with it quickly. Your weapon is crucial for neutralizing enemies and
+24 52
+removing obstacles from your path.
+24 114
+Some adversaries will have armor that protects them from weapons
+24 132
+fire, but I've yet to encounter armor that was completely
+24 150
+impenetrable. Just observe your opponent and exploit any weakness.
+320 248
+=
+340 248
+-7
+250 312
+Press
+350 312
+to continue...
+2
+272 240 7
+304 305 5
+single
+N-PlatformTutorial
+trigger
+1856 288 288 32
+tutorial
+12
+24 16
+Often, you'll need to be able to jump onto moving platforms to reach
+24 34
+your target. It's best to wait for a moment and watch the pattern
+24 52
+before leaping into the abyss, often there will be hazards or pits
+24 70
+beneath you. 
+24 122
+If you mistime a jump and get incapacitated by a trap, or taken down
+24 140
+by enemies, you'll most likely be captured and restrained until
+24 158
+you can be interrogated. Escaping is a tricky business, requiring you
+24 176
+to wiggle in the right direction in the right time to loosen your
+24 194
+bonds. Be careful that you aren't captured too often, as your captors
+24 212
+will no doubt make things tighter each time you escape.
+250 312
+Press
+350 312
+to continue...
+1
+304 305 5
+single
+N-EnemyTutorial
+trigger
+2848 32 64 288
+tutorial
+7
+24 16
+Use your weapon to defeat enemies. Each enemy defeated will
+24 34
+improve the agency's standing and help us better support our
+24 52
+field agents. Occasionally you'll be able to salavage parts from
+24 70
+defeated enemies. Bring these back to base after your missions
+24 88
+to help fill out our database on types of enemy units.
+250 312
+Press
+350 312
+to continue...
+1
+304 305 5
+single

@@ -1,4 +1,4 @@
-11
+12
 E-P-1-BA1
 0 0 15 41
 3 1 500
@@ -203,3 +203,64 @@ Melee
 0 0 0 0
 
 50
+E-F-0-BA1
+0 0 20 14
+1 -1 1000
+./Assets/Data/Spritesheet/Betty.plSPS
+./Assets/Images/Betty.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-2 -0 -22 0
+3
+Ambush
+0 1
+8
+-100
+-128
+200
+120
+0
+-112
+256
+1
+Shoot
+1 0
+0
+SelfDestruct
+2 0
+0
+1
+scripted 3 Ambush 0 , Shoot 2 0 1 , SelfDestruct 0 ,
+-1 -1
+0
+./Assets/Sounds/Effects/Confirm.wav
+1
+Multishot
+7 10 -15 10 1
+5
+1 1 0 0 8 8
+125 -325
+./Assets/Data/Spritesheet/Fireball.plSPS
+./Assets/Images/Fireball.png
+1 1 0 0 8 8
+250 -200
+./Assets/Data/Spritesheet/Fireball.plSPS
+./Assets/Images/Fireball.png
+1 1 0 0 8 8
+0 -450
+./Assets/Data/Spritesheet/Fireball.plSPS
+./Assets/Images/Fireball.png
+1 1 0 0 8 8
+-250 -200
+./Assets/Data/Spritesheet/Fireball.plSPS
+./Assets/Images/Fireball.png
+1 1 0 0 8 8
+-125 -325
+./Assets/Data/Spritesheet/Fireball.plSPS
+./Assets/Images/Fireball.png
+./Assets/Sounds/Effects/Fireball.wav
+0 0 20 14
+0 0
+50
+

@@ -10,7 +10,28 @@ TestGround.plLFG
 TestEvent.plEVT
 TestTiles.plTLM
 ./Assets/Sounds/Music/AlienLevel.wav
-19
+22
+E-Betty-1
+1225 2002
+1
+E-F-0-BA1
+1
+GC
+1
+E-Betty-2
+1365 146
+1
+E-F-0-BA1
+1
+GC
+1
+E-Betty-3
+1013 1362
+1
+E-F-0-BA1
+1
+GC
+1
 E-Turret-1
 1024 1856
 1

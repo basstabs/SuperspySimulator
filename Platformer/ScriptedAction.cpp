@@ -341,7 +341,7 @@ namespace Platformer
 
 		p->PlayAnimation(RandomBoundedInteger(1, n - 1), true);
 
-		EscapeMinigame::hard += 1;
+		EscapeMinigame::hard += (Settings::AccessSettings()->HardMode() ? 4 : 1);
 		this->difficulty = EscapeMinigame::hard - SaveData::AccessSaveData()->EscapeBonus();
 		this->difficulty = fminf(fmaxf(this->difficulty, 1), ESCAPE_MAX_DIFFICULTY);
 

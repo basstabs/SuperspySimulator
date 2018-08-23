@@ -109,6 +109,9 @@ namespace Platformer
 
 		int WeaponUnlockCost(std::string w);
 
+		bool CollectedDamsels();
+		bool Completed();
+
 	protected:
 
 		SaveData();

@@ -295,7 +295,7 @@ namespace Platformer
 	{
 
 		CustomizerCore core;
-		core.Load("./Assets/Images/Pieces/Base", "./Saves/Customization.plCTM", "./Assets/Images/Pieces/" + this->levels[this->currentLevel].shorthand);
+		core.Load("./Assets/Images/Pieces/Base", "./Saves/Customization.plCTM", "./Assets/Images/Pieces/" + (this->levels[this->currentLevel].shorthand == "Tutorial" ? "Tropic" : this->levels[this->currentLevel].shorthand));
 
 		std::ostringstream index;
 
@@ -330,10 +330,12 @@ namespace Platformer
 	void LevelSelect::GeneratePlayerSprites()
 	{
 
+		std::string bondsName = (this->levels[this->currentLevel].shorthand == "Tutorial" ? "Tropic" : this->levels[this->currentLevel].shorthand);
+
 		//Heroine
 		SDL_Texture* base = LoadTexture(OUTPUT_PLAYER_FILE);
 		SDL_Texture* weapon = LoadTexture("./Assets/Images/Pieces/" + SaveData::AccessSaveData()->WeaponImageName());
-		SDL_Texture* bonds = LoadTexture("./Assets/Images/Pieces/" + this->levels[this->currentLevel].shorthand + "Bonds.png");
+		SDL_Texture* bonds = LoadTexture("./Assets/Images/Pieces/" + bondsName + "Bonds.png");
 
 		Uint32 format = 0;
 		SDL_Rect rect;
@@ -369,9 +371,9 @@ namespace Platformer
 		SDL_DestroyTexture(base);
 
 		//HeroineKO
-		bonds = LoadTexture("./Assets/Images/Pieces/" + this->levels[this->currentLevel].shorthand + "BondsKO.png");
+		bonds = LoadTexture("./Assets/Images/Pieces/" + bondsName + "BondsKO.png");
 		base = LoadTexture(OUTPUT_PLAYERKO_FILE);
-		SDL_Texture* bondsFore = LoadTexture("./Assets/Images/Pieces/" + this->levels[this->currentLevel].shorthand + "BondsForeKO.png");
+		SDL_Texture* bondsFore = LoadTexture("./Assets/Images/Pieces/" + bondsName + "BondsForeKO.png");
 
 		col.a = col.r = col.g = col.b = 0;
 

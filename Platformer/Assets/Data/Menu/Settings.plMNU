@@ -2,7 +2,7 @@
 ./Assets/Munro.ttf
 235 235 235 255
 32
-4
+5
 Window Size:
 32 64
 25 25 25 255
@@ -15,11 +15,24 @@ Sound:
 Music:
 256 128
 25 25 25 255
+Difficulty:
+224 224
+25 25 25 255
 3
 ./Assets/Images/SliderBackground.png
 ./Assets/Images/SliderButton.png
 ./Assets/Images/SilhouetteSettings.png
-9
+11
+Normal
+256 256 32 32
+Button-Text
+Normal
+25 25 25 255
+Hard
+256 288 32 32
+Button-Text
+Hard
+25 25 25 255
 Back
 32 320 32 32
 Button-Text
