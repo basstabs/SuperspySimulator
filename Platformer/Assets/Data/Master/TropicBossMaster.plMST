@@ -1,0 +1,101 @@
+2
+E-F-13-BA1
+0 0 20 58
+7 1 4000
+./Assets/Data/Spritesheet/MarchionessHover.plSPS
+./Assets/Images/MarchionessSwimsuit.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-43 -4 -1 -4
+5
+Idle
+0 1
+0
+Shoot
+1 0
+0
+GoTo
+0 1
+0
+Turn
+0 1
+0
+Hurt
+2 0
+0
+8
+health == 7
+2 1
+Idle 0
+-1 -1
+hurt != 0
+3 3
+health <= 3
+7 4
+loc == 32 192
+6 5
+scripted 2 Hurt 0 , GoTo 5 150 32 160 0 0 ,
+-1 -1
+scripted 9 Shoot 2 0 1 , Shoot 2 1 1 , GoTo 5 150 576 160 0 0 , Turn 0 , Shoot 2 2 3 , Shoot 2 0 1 , Shoot 2 1 1 , GoTo 5 150 32 160 0 0 , Turn 0 ,
+-1 -1
+scripted 7 Shoot 2 3 3 , GoTo 5 100 32 128 0 0 , Shoot 2 0 1 , Shoot 2 1 1 , GoTo 5 100 32 192 0 0 , Shoot 2 0 1 , Shoot 2 1 1 , 
+-1 -1
+325
+./Assets/Sounds/Effects/Confirm.wav
+4
+Multishot
+-8 10 8 10 1000
+2
+1 1 0 0 8 8
+200 0
+./Assets/Data/Spritesheet/Fireball.plSPS
+./Assets/Images/Fireball.png
+1 1 0 0 8 8
+150 50
+./Assets/Data/Spritesheet/Fireball.plSPS
+./Assets/Images/Fireball.png
+./Assets/Sounds/Effects/Fireball.wav
+Multishot
+-8 10 8 10 1500
+2
+1 1 0 0 8 8
+200 0
+./Assets/Data/Spritesheet/Fireball.plSPS
+./Assets/Images/Fireball.png
+1 1 0 0 8 8
+150 -50
+./Assets/Data/Spritesheet/Fireball.plSPS
+./Assets/Images/Fireball.png
+./Assets/Sounds/Effects/Fireball.wav
+Spawn
+-8 100 -8 100 0
+E-C-1
+./Assets/Sounds/Effects/RobotSpawn.wav
+Spawn
+440 -128 440 -128 0
+E-C-1
+./Assets/Sounds/Effects/RobotSpawn.wav
+0 0 20 8
+0 50
+200
+E-C-1
+0 0 12 8
+1 1 750
+./Assets/Data/Spritesheet/Autotaper.plSPS
+./Assets/Images/Autotaper.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+0 0 0 0
+1
+0 0
+0 0 12 8
+-3072 -400 6144 800
+0 125 2000
+Melee
+-1 750 2
+12 8
+0 0 0 0
+
+50

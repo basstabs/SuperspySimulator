@@ -1987,6 +1987,8 @@ namespace Platformer
 		FSM* newFSM = new FSM(this->level, this->MaxHealth(), this->Direction(), location.X(), location.Y(), this->Width(), this->Height());
 		this->DataCopy(newFSM);
 
+		newFSM->direction = this->direction;
+
 		newFSM->fsm = this->fsm;
 		newFSM->decisionDelay = this->decisionDelay;
 		newFSM->lastSwitch = GetTime();

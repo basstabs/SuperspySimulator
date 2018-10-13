@@ -1,0 +1,67 @@
+3072 360 -1 0
+3
+75 270
+939 270
+2940 238
+Tropic2Collision.plCOL
+TropicMaster.plMST
+Tropic2Ground.plLFG
+Tropic2Event.plEVT
+Tropic2Tile.plTLM
+./Assets/Sounds/Music/TropicLevel.wav
+7
+E-Leader-1
+1739 110
+1
+E-F-11-BA1
+1
+GC
+1
+E-Leader-2
+2091 46
+1
+E-F-12-BA1
+1
+GC
+1
+E-Patrol-2
+352 238
+1
+E-P-0-BA1
+1
+GC
+1
+E-Patrol-3
+1900 238
+1
+E-P-0-BA1
+1
+GC
+1
+E-Patrol-4
+576 238
+1
+E-P-0-BA1
+1
+GC
+1
+E-Chaser-2
+1900 0
+1
+E-C-0-BA1
+1
+GC
+1
+E-Chaser-3
+2850 0
+1
+E-C-0-BA1
+1
+GC
+1
+TropicInfo
+0 0 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/TropicInfo.png
+./Assets/Images/TropicThumbnail.png
+20

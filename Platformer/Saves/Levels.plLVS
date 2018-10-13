@@ -1,10 +1,16 @@
-4
+5
 1 1 500
 Learning the Ropes
 Tutorial
 TutorialLevel.plLVL
 0
 ./Assets/Images/TutorialScene.png
+5 3 1000
+Tropical Ties
+Tropic
+TropicLevel.plLVL
+0
+./Assets/Images/TropicScene.png
 4 4 1000
 The Mummy Goes "MMPH!"
 Mummy

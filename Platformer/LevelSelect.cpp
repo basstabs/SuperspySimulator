@@ -245,7 +245,32 @@ namespace Platformer
 
 			LevelData data = SaveData::AccessSaveData()->CurrentLevel();
 
-			this->CreateDamsels(data.numDamsels);
+			bool faux = (data.shorthand == "Tropic");
+			if (data.shorthand == "Tropic")
+			{
+
+				std::vector<bool> faux(2 * data.numDamsels);
+
+				int numFaux = 0;
+				while (numFaux < data.numDamsels)
+				{
+
+					int rand = RandomBoundedInteger(0, 9);
+					if (!faux[rand])
+					{
+
+						faux[rand] = true;
+						numFaux++;
+
+					}
+
+				}
+
+				SaveData::AccessSaveData()->SetFaux(faux);
+
+			}
+
+			this->CreateDamsels((faux ? 2 : 1) * data.numDamsels, faux);
 
 			this->GeneratePlayerSprites();
 
@@ -291,7 +316,7 @@ namespace Platformer
 
 	}
 
-	void LevelSelect::CreateDamsels(int n)
+	void LevelSelect::CreateDamsels(int n, bool faux)
 	{
 
 		CustomizerCore core;
@@ -317,7 +342,7 @@ namespace Platformer
 
 			index << i;
 
-			core.PreparePlayer();
+			core.PreparePlayer(true, i);
 			core.OutputPlayer("", "./Assets/Images/Damsels/Damsel" + index.str() + ".png");
 
 			index.str("");

@@ -661,6 +661,7 @@ namespace Platformer
 				this->SetRunning(false);
 
 				SaveData::AccessSaveData()->ClearAtRisk();
+				SaveData::AccessSaveData()->SetFaux(std::vector<bool>());
 				EscapeMinigame::Reset();
 
 			}

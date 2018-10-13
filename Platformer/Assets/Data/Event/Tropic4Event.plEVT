@@ -1,0 +1,50 @@
+6
+N-Strawberry-0
+item
+Health
+2600 256 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/Strawberry.png
+
+0
+N-Damsel-8
+item
+Damsel
+2159 42 54 54
+./Assets/Data/Spritesheet/Damsel.plSPS
+./Assets/Images/Damsels/Damsel8.png
+./Assets/Images/DamselThumbnail.png
+1
+N-Damsel-9
+item
+Damsel
+880 234 54 54
+./Assets/Data/Spritesheet/Damsel.plSPS
+./Assets/Images/Damsels/Damsel9.png
+./Assets/Images/DamselThumbnail.png
+1
+N-Door-4
+trigger
+2880 300 96 20
+door
+./Assets/Data/Level/TropicBossLevel.plLVL
+0
+input
+1
+0
+N-Dossier-1
+item
+Dossier
+1378 24 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/Dossier.png
+./Assets/Images/DossierThumbnail.png
+1
+N-Dossier-2
+item
+Dossier
+2112 40 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/Dossier.png
+./Assets/Images/DossierThumbnail.png
+1

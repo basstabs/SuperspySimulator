@@ -112,6 +112,9 @@ namespace Platformer
 		bool CollectedDamsels();
 		bool Completed();
 
+		void SetFaux(std::vector<bool> faux);
+		bool Faux(int index);
+
 	protected:
 
 		SaveData();
@@ -158,6 +161,7 @@ namespace Platformer
 		std::string currentWeapon;
 
 		std::map<std::string, std::pair<int, bool>> weaponData;
+		std::vector<bool> faux;
 
 	};
 

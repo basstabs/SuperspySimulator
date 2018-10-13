@@ -97,6 +97,9 @@
     <ClCompile Include="Weapon.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Bonus.cpp">
+      <Filter>Source\Menus</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
@@ -192,6 +195,9 @@
     </ClInclude>
     <ClInclude Include="Weapon.h">
       <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Bonus.h">
+      <Filter>Headers\Menus</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -643,6 +649,132 @@
       <Filter>Assets\Spritesheets</Filter>
     </None>
     <None Include="Assets\Data\Spritesheet\Robot.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Menu\Bonus.plMNU">
+      <Filter>Assets\Menus</Filter>
+    </None>
+    <None Include="Assets\Data\Master\TropicMaster.plMST">
+      <Filter>Assets\Master</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Faux.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Event\FauxTestEvent.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Event\TropicEvent.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Collision\TropicCollision.plCOL">
+      <Filter>Assets\Collision</Filter>
+    </None>
+    <None Include="Assets\Data\Level\TropicLevel.plLVL">
+      <Filter>Assets\Levels</Filter>
+    </None>
+    <None Include="Assets\Data\Render\TropicGround.plLFG">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Render\TropicTile.plTLM">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Post.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Water184.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Water216.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Boat.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Cage.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Palm.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Level\Tropic2Level.plLVL">
+      <Filter>Assets\Levels</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Tropic2Ground.plLFG">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Tropic2Tile.plTLM">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Collision\Tropic2Collision.plCOL">
+      <Filter>Assets\Collision</Filter>
+    </None>
+    <None Include="Assets\Data\Event\Tropic2Event.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Water408.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Water204.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Water344.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Collision\Tropic3Collision.plCOL">
+      <Filter>Assets\Collision</Filter>
+    </None>
+    <None Include="Assets\Data\Event\Tropic3Event.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Level\Tropic3Level.plLVL">
+      <Filter>Assets\Levels</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Tropic3Ground.plLFG">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Tropic3Tile.plTLM">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Level\Tropic4Level.plLVL">
+      <Filter>Assets\Levels</Filter>
+    </None>
+    <None Include="Assets\Data\Collision\Tropic4Collision.plCOL">
+      <Filter>Assets\Collision</Filter>
+    </None>
+    <None Include="Assets\Data\Event\Tropic4Event.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Tropic4Ground.plLFG">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Render\Tropic4Tile.plTLM">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Leader.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\SpawnBox.plSPS">
+      <Filter>Assets\Spritesheets</Filter>
+    </None>
+    <None Include="Assets\Data\Collision\TropicBossCollision.plCOL">
+      <Filter>Assets\Collision</Filter>
+    </None>
+    <None Include="Assets\Data\Event\TropicBossEvent.plEVT">
+      <Filter>Assets\Events</Filter>
+    </None>
+    <None Include="Assets\Data\Level\TropicBossLevel.plLVL">
+      <Filter>Assets\Levels</Filter>
+    </None>
+    <None Include="Assets\Data\Render\TropicBossGround.plLFG">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Render\TropicBossTile.plTLM">
+      <Filter>Assets\Render</Filter>
+    </None>
+    <None Include="Assets\Data\Master\TropicBossMaster.plMST">
+      <Filter>Assets\Master</Filter>
+    </None>
+    <None Include="Assets\Data\Spritesheet\Water240.plSPS">
       <Filter>Assets\Spritesheets</Filter>
     </None>
   </ItemGroup>

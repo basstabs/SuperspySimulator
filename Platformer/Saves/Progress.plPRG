@@ -1,22 +1,18 @@
-9275 10275
+6850 6850
 4
-Handcannon 5 0
-Magnum 5 0
-Phaser 5 1
-Uzi 5 0
-3
-AlienInfo
-25
-FactoryInfo
-25
+Handcannon 10 0
+Magnum 10 0
+Phaser 10 0
+Uzi 10 0
+4
+TropicInfo
+14
 MummyInfo
-25
-4
-Alien
-6 10
-Factory
-7 6
-Mummy
-4 4
-Tutorial
-1 1
+30
+AlienInfo
+30
+FactoryInfo
+30
+1
+Tropic
+5 3

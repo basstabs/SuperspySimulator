@@ -1,0 +1,49 @@
+3
+./Assets/Data/Spritesheet/Palm.plSPS
+./Assets/Images/PalmTree.png
+1
+416 48
+./Assets/Data/Spritesheet/Palm.plSPS
+./Assets/Images/PalmTree2.png
+1
+2336 48
+./Assets/Data/Spritesheet/SpawnBox.plSPS
+./Assets/Images/SpawnBox.png
+1
+2716 240
+5
+./Assets/Data/Spritesheet/Post.plSPS
+./Assets/Images/PierPostTop.png
+16
+588 264
+684 264
+780 264
+876 264
+972 264
+1196 264
+1292 264
+1388 264
+1484 264
+1580 264
+1676 264
+1772 264
+1868 264
+2124 264
+2220 264
+2924 264
+./Assets/Data/Spritesheet/Water184.plSPS
+./Assets/Images/WaterLevel184.png
+1
+992 320
+./Assets/Data/Spritesheet/Water216.plSPS
+./Assets/Images/WaterLevel184.png
+1
+1888 320
+./Assets/Data/Spritesheet/Boat.plSPS
+./Assets/Images/Boat.png
+1
+2966 306
+./Assets/Data/Spritesheet/Cage.plSPS
+./Assets/Images/Cage.png
+1
+0 151

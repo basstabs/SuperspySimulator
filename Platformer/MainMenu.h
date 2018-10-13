@@ -8,6 +8,9 @@
 
 using namespace Engine2D;
 
+#define BONUS_X 64
+#define BONUS_Y 224
+
 namespace Platformer
 {
 

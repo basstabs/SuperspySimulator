@@ -86,6 +86,14 @@ namespace Platformer
 
 		}
 
+		if (this->faux)
+		{
+
+			SDL_DestroyTexture(this->faux);
+			this->faux = NULL;
+
+		}
+
 		if (this->playerOutput)
 		{
 
@@ -157,6 +165,7 @@ namespace Platformer
 			this->playerBonds = LoadTexture(level + "Bonds.png");
 			this->bonds = LoadTexture(level + "BondsKO.png");
 			this->bondsFore = LoadTexture(level + "BondsForeKO.png");
+			this->faux = LoadTexture("./Assets/Images/Pieces/FauxKO.png");
 
 		}
 
@@ -501,7 +510,7 @@ namespace Platformer
 
 	}
 
-	void CustomizerCore::PreparePlayer(bool render)
+	void CustomizerCore::PreparePlayer(bool render, int index)
 	{
 
 		SDL_Rect rect;
@@ -582,6 +591,13 @@ namespace Platformer
 		{
 
 			SDL_RenderCopyEx(renderer, this->bondsFore, &rect, &rect, 0, NULL, SDL_FLIP_NONE);
+
+		}
+
+		if (this->faux && SaveData::AccessSaveData()->Faux(index))
+		{
+
+			SDL_RenderCopyEx(renderer, this->faux, &rect, &rect, 0, NULL, SDL_FLIP_NONE);
 
 		}
 

@@ -38,7 +38,7 @@ namespace Platformer
 
 	protected:
 
-		void CreateDamsels(int n);
+		void CreateDamsels(int n, bool faux);
 		void GeneratePlayerSprites();
 
 	//Data

@@ -1,0 +1,49 @@
+6
+N-Damsel-3
+item
+Damsel
+1775 106 54 54
+./Assets/Data/Spritesheet/Damsel.plSPS
+./Assets/Images/Damsels/Damsel3.png
+./Assets/Images/DamselThumbnail.png
+1
+N-Damsel-4
+item
+Damsel
+3000 234 54 54
+./Assets/Data/Spritesheet/Damsel.plSPS
+./Assets/Images/Damsels/Damsel4.png
+./Assets/Images/DamselThumbnail.png
+1
+N-Damsel-5
+item
+Damsel
+2850 234 54 54
+./Assets/Data/Spritesheet/Damsel.plSPS
+./Assets/Images/Damsels/Damsel5.png
+./Assets/Images/DamselThumbnail.png
+1
+N-Door-1
+trigger
+896 300 96 20
+door
+./Assets/Data/Level/Tropic3Level.plLVL
+0
+input
+1
+0
+N-Door-2
+trigger
+2400 300 96 20
+door
+./Assets/Data/Level/Tropic4Level.plLVL
+0
+input
+1
+0
+N-DoorsOpen-1
+trigger
+2787 224 15 64
+platform
+0
+single

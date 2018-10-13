@@ -1,5 +1,35 @@
 0 0 0
-19
+24
+Target
+TropicInfo
+0
+R and D
+2
+A stationary target used for
+firearms practice.
+./Assets/Data/Spritesheet/Target.plSPS
+./Assets/Images/Target.png
+Robot
+TropicInfo
+0
+R and D
+3
+An automaton built for combat
+simulations to help prepare
+agents for the field.
+./Assets/Data/Spritesheet/Robot.plSPS
+./Assets/Images/Robot.png
+Autotaper
+TropicInfo
+2
+Bass
+4
+A small robot built to quickly encase
+its targets in sticky tape to
+incapacitate them for capture. Hard
+to hit, but not very durable.
+./Assets/Data/Spritesheet/Autotaper.plSPS
+./Assets/Images/Autotaper.png
 Arc Turret
 AlienInfo
 3
@@ -104,6 +134,17 @@ high-tech latex launchers that can
 immobilize a target on impact. 
 ./Assets/Data/Spritesheet/Soldier.plSPS
 ./Assets/Images/SoldierGoo.png
+Commander
+TropicInfo
+8
+Bass
+4
+A high-ranking mercenary that directs
+her underlings on operations. Has the
+authority to call in robotic
+reinforcements if things go south.
+./Assets/Data/Spritesheet/Leader.plSPS
+./Assets/Images/SoldierWoman.png
 Restless Mummy
 MummyInfo
 10
@@ -127,6 +168,19 @@ is a shell that conducts voltage
 when touched.
 ./Assets/Data/Spritesheet/Mover.plSPS
 ./Assets/Images/AlienMover.png
+FauxDamsel
+TropicInfo
+10
+Indigospoon
+6
+A nefarious robot built to mimic the
+appearance of a helpless human woman.
+When targets approach, the seemingly
+helpless "damsel" suddenly lashes out
+and incapacitates its target. Use
+caution, extremely dangerous.
+./Assets/Data/Spritesheet/Faux.plSPS
+./Assets/Images/FauxDamsel.png
 Latex Betty
 FactoryInfo
 12
@@ -149,6 +203,18 @@ flies up and rains energy bolts
 down on the unsuspecting victim.
 ./Assets/Data/Spritesheet/Betty.plSPS
 ./Assets/Images/Betty.png
+Mastermind
+TropicInfo
+14
+Bass
+5
+A mysterious woman that seems to
+have access to advanced robotics
+technology and a large mercenary
+force at her disposal. More intel
+is desperately needed.
+./Assets/Data/Spritesheet/MarchionessHover.plSPS
+./Assets/Images/MarchionessSwimsuit.png
 Lonely Mummy
 MummyInfo
 15

@@ -348,6 +348,7 @@ namespace Platformer
 		this->lastButton = GetTime();
 
 		std::string shorthand = SaveData::AccessSaveData()->CurrentLevel().shorthand;
+		shorthand = (shorthand == "Tutorial" ? "Tropic" : shorthand);
 		this->base = LoadTexture("./Assets/Images/Pieces/" + shorthand + "EscapeBarBase.png");
 		this->filler = LoadTexture("./Assets/Images/Pieces/" + shorthand + "EscapeBarFill.png");
 		this->hair = SaveData::AccessSaveData()->EscapeHairFileName();

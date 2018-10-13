@@ -33,7 +33,7 @@ Bob
 Straight
 ./Assets/Images/Pieces/Straight
 12000
-8
+9
 Dress
 ./Assets/Images/Pieces/Dress
 0
@@ -58,6 +58,9 @@ Maid
 Lingerie
 ./Assets/Images/Pieces/Lingerie
 25000
+Swimsuit
+./Assets/Images/Pieces/Swimsuit
+30000
 10
 235 0 0
 0 235 0

@@ -1,0 +1,25 @@
+
+./Assets/Munro.ttf
+235 235 235 255
+32
+0
+3
+./Assets/Images/Icons.png
+./Assets/Images/MummyBonus.png
+./Assets/Images/TropicBonus.png
+3
+Back
+32 320 32 32
+Button-Text
+Back
+25 25 25 255
+BonusDown
+96 160 32 32
+Button
+0
+96 0 32 32
+BonusUp
+512 160 32 32
+Button
+0
+64 0 32 32

@@ -62,6 +62,7 @@ namespace Platformer
 		SDL_Texture* playerBonds = NULL;
 		SDL_Texture* bonds = NULL;
 		SDL_Texture* bondsFore = NULL;
+		SDL_Texture* faux = NULL;
 
 		int currentHair;
 		int currentCostume;
@@ -75,7 +76,7 @@ namespace Platformer
 
 		void Load(std::string base, std::string options, std::string level = "");
 
-		void PreparePlayer(bool render = true);
+		void PreparePlayer(bool render = true, int index = -1);
 		void OutputPlayer(std::string output, std::string koOutput);
 
 		bool Unlocked();

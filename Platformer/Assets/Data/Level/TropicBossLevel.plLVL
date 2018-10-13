@@ -1,0 +1,23 @@
+640 360 0 0
+1
+363 270
+TropicBossCollision.plCOL
+TropicBossMaster.plMST
+TropicBossGround.plLFG
+TropicBossEvent.plEVT
+TropicBossTile.plTLM
+./Assets/Sounds/Music/FactoryBoss.wav
+1
+E-Boss-0
+32 192
+1
+E-F-13-BA1
+1
+GC
+1
+TropicInfo
+0 0 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/TropicInfo.png
+./Assets/Images/TropicThumbnail.png
+20

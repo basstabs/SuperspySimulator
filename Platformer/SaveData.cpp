@@ -344,6 +344,8 @@ namespace Platformer
 	void SaveData::ExitLevel(std::string level)
 	{
 
+		this->faux.clear();
+
 		this->reputation += this->atRiskRep + this->currentLevel.reputationForCompletion;
 		this->atRiskRep = 0;
 
@@ -371,6 +373,8 @@ namespace Platformer
 
 	void SaveData::GameOver()
 	{
+
+		this->faux.clear();
 
 		this->atRiskRep = 0;
 		this->reputation = fmaxf(0, this->reputation - DEATH_REPUTATION_LOSS);
@@ -450,7 +454,7 @@ namespace Platformer
 	SDL_Texture* SaveData::EscapeHairFileName()
 	{
 
-		SDL_Texture* hair = LoadTexture(escapeHairBase + this->currentLevel.shorthand + SaveData::EscapeHair[this->hairIndex]);
+		SDL_Texture* hair = LoadTexture(escapeHairBase + (this->currentLevel.shorthand == "Tutorial" ? "Tropic" : this->currentLevel.shorthand) + SaveData::EscapeHair[this->hairIndex]);
 		SDL_SetTextureColorMod(hair, this->hairColor.r, this->hairColor.g, this->hairColor.b);
 
 		return hair;
@@ -567,14 +571,14 @@ namespace Platformer
 	int SaveData::DamselData(std::string name)
 	{
 
-		return this->completionRecords[name].first;
+		return (this->completionRecords.find(name) == this->completionRecords.end() ? 0 : this->completionRecords[name].first);
 
 	}
 
 	int SaveData::DossierData(std::string name)
 	{
 
-		return this->completionRecords[name].second;
+		return (this->completionRecords.find(name) == this->completionRecords.end() ? 0 : this->completionRecords[name].second);
 
 	}
 
@@ -844,6 +848,27 @@ namespace Platformer
 		file.close();
 
 		return true;
+
+	}
+
+	void SaveData::SetFaux(std::vector<bool> f)
+	{
+
+		this->faux = f;
+
+	}
+
+	bool SaveData::Faux(int index)
+	{
+
+		if (index >= 0 && index < this->faux.size())
+		{
+
+			return this->faux[index];
+
+		}
+
+		return false;
 
 	}
 

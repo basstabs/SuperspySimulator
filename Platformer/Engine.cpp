@@ -259,7 +259,6 @@ namespace Engine2D
 
 							deltaTime = 0;
 							std::cout << "Panic!" << std::endl;
-							std::cout << numUpdates << std::endl;
 
 						}
 

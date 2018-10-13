@@ -1,0 +1,459 @@
+15
+E-C-0-BA1
+0 0 12 12
+2 1 500
+./Assets/Data/Spritesheet/FactoryBot.plSPS
+./Assets/Images/FactoryBotStun.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-6 -2 -2 -2
+1
+0 0
+0 0 4 4
+-160 -50 320 400
+-8 150 2000
+
+50
+E-C-1
+0 0 12 8
+1 1 750
+./Assets/Data/Spritesheet/Autotaper.plSPS
+./Assets/Images/Autotaper.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+0 0 0 0
+1
+0 0
+0 0 12 8
+-3072 -400 6144 800
+0 125 2000
+Melee
+-1 750 2
+12 8
+0 0 0 0
+
+50
+E-P-0-BA1
+0 0 10 50
+4 1 1000
+./Assets/Data/Spritesheet/Soldier.plSPS
+./Assets/Images/SoldierShock.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-36 -4 -8 -4
+-112 112 96
+-224 -64 448 96
+1 0
+Melee
+1 100 0
+16 6
+-8 16 8 16
+
+50
+E-F-11-BA1
+0 0 10 50
+3 -1 500
+./Assets/Data/Spritesheet/Leader.plSPS
+./Assets/Images/SoldierWoman.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-36 -4 -8 -4
+2
+Ambush
+0 1
+8
+-200
+-200
+400
+400
+0
+0
+0
+0
+Shoot
+1 0
+0
+1
+scripted 2 Ambush 0 , Shoot 2 0 1 ,
+-1 -1
+0
+./Assets/Sounds/Effects/Confirm.wav
+1
+Spawn
+8 150 8 150 5000
+E-C-1
+./Assets/Sounds/Effects/RobotSpawn.wav
+0 0 10 50
+0 0
+50
+E-F-12-BA1
+0 0 10 50
+3 -1 500
+./Assets/Data/Spritesheet/Leader.plSPS
+./Assets/Images/SoldierWoman.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-36 -4 -8 -4
+2
+Ambush
+0 1
+8
+-200
+-200
+400
+600
+0
+0
+0
+0
+Shoot
+1 0
+0
+1
+scripted 2 Ambush 0 , Shoot 2 0 1 ,
+-1 -1
+0
+./Assets/Sounds/Effects/Confirm.wav
+1
+Spawn
+8 182 8 182 5000
+E-C-1
+./Assets/Sounds/Effects/RobotSpawn.wav
+0 0 10 50
+0 0
+50
+E-F-0-BA1000
+0 0 14 54
+1 1 1000
+./Assets/Data/Spritesheet/Faux.plSPS
+./Assets/Images/Damsels/Damsel0.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-36 0 -8 0
+2
+Ambush
+0 1
+8
+0
+0
+14
+54
+0
+0
+0
+0
+SelfDestruct
+6 0
+0
+1
+scripted 2 Ambush 0 , SelfDestruct 0 ,
+-1 -1
+0
+./Assets/Sounds/Effects/Confirm.wav
+0
+0 0 -8192 -8192
+0 0
+0
+E-F-1-BA1000
+0 0 22 54
+1 1 1000
+./Assets/Data/Spritesheet/Faux.plSPS
+./Assets/Images/Damsels/Damsel1.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-36 0 -3 0
+2
+Ambush
+1 1
+8
+0
+0
+22
+54
+0
+0
+0
+0
+SelfDestruct
+6 0
+0
+1
+scripted 2 Ambush 0 , SelfDestruct 0 ,
+-1 -1
+0
+./Assets/Sounds/Effects/Confirm.wav
+0
+0 0 -8192 -8192
+0 0
+0
+E-F-2-BA1000
+0 0 32 54
+1 1 1000
+./Assets/Data/Spritesheet/Faux.plSPS
+./Assets/Images/Damsels/Damsel2.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-36 0 -3 0
+2
+Ambush
+2 1
+8
+0
+0
+32
+54
+0
+0
+0
+0
+SelfDestruct
+6 0
+0
+1
+scripted 2 Ambush 0 , SelfDestruct 0 ,
+-1 -1
+0
+./Assets/Sounds/Effects/Confirm.wav
+0
+0 0 -8192 -8192
+0 0
+0
+E-F-3-BA1000
+0 0 28 54
+1 1 1000
+./Assets/Data/Spritesheet/Faux.plSPS
+./Assets/Images/Damsels/Damsel3.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-36 0 -3 0
+2
+Ambush
+3 1
+8
+0
+0
+28
+54
+0
+0
+0
+0
+SelfDestruct
+6 0
+0
+1
+scripted 2 Ambush 0 , SelfDestruct 0 ,
+-1 -1
+0
+./Assets/Sounds/Effects/Confirm.wav
+0
+0 0 -8192 -8192
+0 0
+0
+E-F-4-BA1000
+0 0 28 54
+1 1 1000
+./Assets/Data/Spritesheet/Faux.plSPS
+./Assets/Images/Damsels/Damsel4.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-36 0 -3 0
+2
+Ambush
+4 1
+8
+0
+0
+28
+54
+0
+0
+0
+0
+SelfDestruct
+6 0
+0
+1
+scripted 2 Ambush 0 , SelfDestruct 0 ,
+-1 -1
+0
+./Assets/Sounds/Effects/Confirm.wav
+0
+0 0 -8192 -8192
+0 0
+0
+E-F-5-BA1000
+0 0 32 54
+1 1 1000
+./Assets/Data/Spritesheet/Faux.plSPS
+./Assets/Images/Damsels/Damsel5.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-36 0 -3 0
+2
+Ambush
+5 1
+8
+0
+0
+32
+54
+0
+0
+0
+0
+SelfDestruct
+6 0
+0
+1
+scripted 2 Ambush 0 , SelfDestruct 0 ,
+-1 -1
+0
+./Assets/Sounds/Effects/Confirm.wav
+0
+0 0 -8192 -8192
+0 0
+0
+E-F-6-BA1000
+0 0 14 54
+1 1 1000
+./Assets/Data/Spritesheet/Faux.plSPS
+./Assets/Images/Damsels/Damsel6.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-36 0 -8 0
+2
+Ambush
+0 1
+8
+0
+0
+14
+54
+0
+0
+0
+0
+SelfDestruct
+6 0
+0
+1
+scripted 2 Ambush 0 , SelfDestruct 0 ,
+-1 -1
+0
+./Assets/Sounds/Effects/Confirm.wav
+0
+0 0 -8192 -8192
+0 0
+0
+E-F-7-BA1000
+0 0 32 54
+1 1 1000
+./Assets/Data/Spritesheet/Faux.plSPS
+./Assets/Images/Damsels/Damsel7.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-36 0 -3 0
+2
+Ambush
+2 1
+8
+0
+0
+32
+54
+0
+0
+0
+0
+SelfDestruct
+6 0
+0
+1
+scripted 2 Ambush 0 , SelfDestruct 0 ,
+-1 -1
+0
+./Assets/Sounds/Effects/Confirm.wav
+0
+0 0 -8192 -8192
+0 0
+0
+E-F-8-BA1000
+0 0 28 54
+1 1 1000
+./Assets/Data/Spritesheet/Faux.plSPS
+./Assets/Images/Damsels/Damsel8.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-36 0 -3 0
+2
+Ambush
+4 1
+8
+0
+0
+28
+54
+0
+0
+0
+0
+SelfDestruct
+6 0
+0
+1
+scripted 2 Ambush 0 , SelfDestruct 0 ,
+-1 -1
+0
+./Assets/Sounds/Effects/Confirm.wav
+0
+0 0 -8192 -8192
+0 0
+0
+E-F-9-BA1000
+0 0 32 54
+1 1 1000
+./Assets/Data/Spritesheet/Faux.plSPS
+./Assets/Images/Damsels/Damsel9.png
+./Assets/Data/Spritesheet/Empty.plSPS
+
+./Assets/Sounds/Effects/EnemyHurt.wav
+-36 0 -3 0
+2
+Ambush
+5 1
+8
+0
+0
+32
+54
+0
+0
+0
+0
+SelfDestruct
+6 0
+0
+1
+scripted 2 Ambush 0 , SelfDestruct 0 ,
+-1 -1
+0
+./Assets/Sounds/Effects/Confirm.wav
+0
+0 0 -8192 -8192
+0 0
+0

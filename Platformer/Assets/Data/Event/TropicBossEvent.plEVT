@@ -1,0 +1,24 @@
+2
+N-Exit-0
+trigger
+-1000 -1000 4000 4000
+trigger
+320 300 96 20
+exit
+input
+1
+0
+-1 -1 -1
+and
+single
+defeat
+E-Boss-0
+N-BossDead-0
+trigger
+0 0 640 360
+sound
+./Assets/Sounds/Effects/BossKill.wav
+and
+single
+defeat
+E-Boss-0

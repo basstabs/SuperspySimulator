@@ -11,6 +11,7 @@
 #include "Settings.h"
 #include "SaveData.h"
 #include "Bestiary.h"
+#include "Bonus.h"
 
 namespace Platformer
 {
@@ -25,12 +26,46 @@ namespace Platformer
 
 		this->MenuFactory("./Assets/Data/Menu/Main.plMNU", Settings::AccessSettings()->MusicVolume());
 
+		if (SaveData::AccessSaveData()->Completed())
+		{
+
+			Button* newButton = new Button(BONUS_X, BONUS_Y, 0, 0);
+
+			std::string text = "Bonus";
+			SDL_Color color;
+			color.r = color.g = color.b = 25;
+			color.a = 255;
+
+			newButton->CreateFromText(this->font, text, color);
+
+			this->inputs["Bonus"] = newButton;
+
+		}
+
 	}
 
 	void MainMenu::Update(float deltaTime)
 	{
 
 		this->MenuState::Update(deltaTime);
+
+		if (SaveData::AccessSaveData()->Completed() && this->inputs["Bonus"]->Value())
+		{
+
+			UI::AccessUI()->PlayConfirmEffect();
+
+			Bonus* bonus = new Bonus();
+			bonus->Initialize(0, NULL);
+
+			char* files[1];
+			files[0] = "./Assets/Images/BigFrame.png";
+
+			bonus->LoadContent(1, files);
+			bonus->SetRunning(true);
+
+			engine.RegisterState(bonus);
+
+		}
 
 		if (this->inputs["StartButton"]->Value())
 		{

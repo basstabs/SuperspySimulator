@@ -507,9 +507,49 @@ namespace Platformer
 
 							newItem->SetType("CorpseRun-" + thumb);
 
-						}
+							this->platformer->AddItem(newItem);
 
-						this->platformer->AddItem(newItem);
+						}
+						else if (newItem->Type() == "Damsel")
+						{
+
+							int i = (int)(name[name.size() - 1] - 48);
+
+							if (SaveData::AccessSaveData()->Faux(i))
+							{
+
+								Spawner* spawner = new Spawner(newItem->Box()->X(), newItem->Box()->Y(), 0, 0);
+								std::vector<std::string> code;
+
+								std::ostringstream index;
+								index << i;
+
+								code.push_back("E-F-" + index.str() + "-BA1000");
+
+								spawner->SetId("E-Faux-" + index.str());
+								spawner->SetCodes(code);
+								spawner->SetCondition(new GlobalCountCondition(1));
+
+								this->spawners.push_back(spawner);
+
+								delete newItem;
+								newItem = NULL;
+
+							}
+							else
+							{
+
+								this->platformer->AddItem(newItem);
+
+							}
+
+						}
+						else
+						{
+
+							this->platformer->AddItem(newItem);
+
+						}
 
 					}
 					else

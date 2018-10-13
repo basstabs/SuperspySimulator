@@ -1,0 +1,24 @@
+2
+./Assets/Data/Spritesheet/Palm.plSPS
+./Assets/Images/PalmTree2.png
+1
+64 48
+./Assets/Data/Spritesheet/SpawnBox.plSPS
+./Assets/Images/SpawnBox.png
+2
+576 240
+480 48
+3
+./Assets/Data/Spritesheet/Post.plSPS
+./Assets/Images/PierPostTop.png
+2
+236 264
+492 264
+./Assets/Data/Spritesheet/Water240.plSPS
+./Assets/Images/WaterLevel184.png
+1
+248 320
+./Assets/Data/Spritesheet/Boat.plSPS
+./Assets/Images/BoatLeft.png
+1
+320 306

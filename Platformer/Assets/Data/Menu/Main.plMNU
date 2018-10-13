@@ -7,7 +7,7 @@
 ./Assets/Images/SilhouetteMain.png
 7
 LoadButton
-16 320 32 32
+64 192 0 0
 Button-Text
 Load
 25 25 25 255
@@ -32,7 +32,7 @@ Button-Text
 Options
 25 25 25 255
 QuitButton
-64 192 0 0
+16 320 0 0
 Button-Text
 Quit
 25 25 25 255

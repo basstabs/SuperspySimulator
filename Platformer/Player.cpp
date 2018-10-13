@@ -165,7 +165,7 @@ namespace Platformer
 
 			}
 
-			this->rawVelocity.SetY(this->rawVelocity.Y() + GRAVITY * deltaTime);
+			this->rawVelocity.SetY(fminf(this->rawVelocity.Y() + GRAVITY * deltaTime, 2000));
 
 			//Jump Down
 			if (controls->Down(JUMP_CODE) && controls->Down(DOWN_CODE) && this->oneWay)

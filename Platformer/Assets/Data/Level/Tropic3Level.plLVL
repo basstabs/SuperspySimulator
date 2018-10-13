@@ -1,0 +1,17 @@
+1024 360 -1 0
+2
+43 270
+500 238
+Tropic3Collision.plCOL
+TropicMaster.plMST
+Tropic3Ground.plLFG
+Tropic3Event.plEVT
+Tropic3Tile.plTLM
+./Assets/Sounds/Music/TropicLevel.wav
+0
+TropicInfo
+0 0 20 20
+./Assets/Data/Spritesheet/Item.plSPS
+./Assets/Images/TropicInfo.png
+./Assets/Images/TropicThumbnail.png
+20
